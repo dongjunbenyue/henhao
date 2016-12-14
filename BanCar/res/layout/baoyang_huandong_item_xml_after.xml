@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+     android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+    
+    <TextView 
+        android:padding="10dp"
+         android:id="@+id/TextView_baoyangmoving_km_number_after001"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:text="10000km"/>
+    <TextView 
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:padding="10dp"
+        />
+    <LinearLayout 
+        android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center">
+    <TextView 
+        android:id="@+id/TextView_baoyangmoving_price_after001"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:text="￥408"/>
+    <TextView 
+        android:layout_marginTop="2dp"
+        android:id="@+id/TextView_baoyangmoving_price_to_back_after001"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:text="返￥112"/>
+    </LinearLayout>
+
+</LinearLayout>

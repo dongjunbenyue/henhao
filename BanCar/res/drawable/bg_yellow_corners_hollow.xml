@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 空心（外框线为黄色）按钮背景，带圆角 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <solid android:color="@android:color/holo_orange_dark" />
+            <corners android:radius="5dp"/>
+		    <stroke android:width="0.5dp" android:color="#AAFEBA18" />
+		</shape>
+    </item>
+    <item android:state_enabled="true" >
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="5dp"/>
+		    <stroke android:width="0.5dp" android:color="#FFFEBA18" />
+		</shape>
+    </item>
+</selector>

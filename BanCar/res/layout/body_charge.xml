@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/edittextmoney"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        android:hint="请输入充值金额"
+        android:textColor="@color/inputblack"/>
+   <TextView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="15dp"
+       android:gravity="center"
+       android:layout_margin="15dp"
+       android:id="@+id/buttonconfirm"
+       android:text="确定"
+       android:textSize="16sp"
+       android:background="@drawable/yuanjiao_button_lan"/>
+</LinearLayout>

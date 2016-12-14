@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 工具栏上的所有按钮背景，颜色值 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <item android:drawable="@color/white"
+        android:state_pressed="true"
+        android:state_enabled="true">
+    </item>
+    <!-- <item android:drawable="@color/red"
+        android:state_checked="true"
+        android:state_enabled="true">
+    </item> -->
+    <item android:drawable="@color/white">
+    </item>
+
+</selector>

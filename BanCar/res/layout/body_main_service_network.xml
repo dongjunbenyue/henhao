@@ -1,0 +1,16 @@
+<!-- 我的|服务网点 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bcwcar.android.bencar.widget.XlistView.XListView
+        android:id="@+id/service_network_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/common_bg"
+        android:dividerHeight="5dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

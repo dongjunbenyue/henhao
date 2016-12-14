@@ -1,0 +1,47 @@
+<!-- 4s店保养|支付结果页面 body部分 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/common_bg">
+	<RelativeLayout
+	    android:id="@+id/RelativeLayout002"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white">
+	    <TextView
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	    	android:layout_centerHorizontal="true"
+	    	android:drawableTop="@drawable/pay_success"
+	    	android:gravity="center_horizontal"
+	    	android:drawablePadding="5dp"
+	    	android:textSize="16dp"
+	    	android:id="@+id/textjieguo"
+	    	android:textColor="#B8C2CD"
+	    	android:text="@string/shop4s_maintain_payment_result_success"/>
+	</RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/RelativeLayout_pay_suesscc001"
+	    android:layout_marginTop="1dp"
+	    android:padding="20dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white">
+		<TextView
+		   android:id="@+id/payment_result_show_detail"
+		   android:layout_height="wrap_content"
+		   android:layout_width="wrap_content"
+		   android:layout_margin="3dp"
+		   android:textColor="@color/hintblack"
+		   android:text="@string/shop4s_maintain_payment_result_order_details"/>
+		<ImageView 
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/xiayibu"
+		    />
+</RelativeLayout>
+</LinearLayout>

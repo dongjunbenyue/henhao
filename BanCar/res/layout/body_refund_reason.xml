@@ -1,0 +1,214 @@
+<!-- 退款原因页面 body部分 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    
+     >
+     <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/linetop"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            >
+             <com.facebook.drawee.view.SimpleDraweeView
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/wangdian_logo0011"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1" />   
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/wangdian_name001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/black"
+                        android:text="43534534534"
+                        android:textSize="16sp" />
+                      
+                       <TextView
+                
+                android:id="@+id/wangdian_adrress001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:drawableLeft="@drawable/dingwei"
+                android:drawablePadding="8dp"
+                android:singleLine="true"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp" />
+                </LinearLayout>
+             </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/refund_reason_tucao_parent"
+        android:layout_margin="@dimen/common_body_page_padding"
+        android:layout_below="@+id/linetop"
+        android:background="@color/transparent" >
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@drawable/bg_white_corner_normal"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/common_textview_padding"
+                android:text="@string/cancel_order_listview_title"
+                android:textColor="#000000"
+                android:textSize="@dimen/common_textsize_large" />
+            <View 
+	    	    android:layout_marginTop="3dp"
+	    	     android:layout_marginBottom="3dp"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="#efeff4"/>
+			<RadioGroup
+			    android:id="@+id/refund_reason_list_group"
+			    android:layout_width="match_parent"
+           		android:layout_height="wrap_content"
+           		
+           		android:background="@color/transparent">
+	            <RadioButton
+	                android:id="@+id/refund_reason_list_reason_1"
+	                android:layout_width="match_parent"
+	           		android:layout_height="wrap_content"
+	           		android:padding="10dp"
+	           		android:button="@null"
+	           		android:drawableRight="@drawable/bg_radiobtn"
+	           		android:gravity="center_vertical|left"
+	           		android:textSize="@dimen/common_title_1_textsize_small"
+	           		android:textColor="#757575"
+	           		android:text="@string/refund_reason_list_reason_1"/>
+	            <View 
+	    	    android:layout_marginTop="3dp"
+	    	     android:layout_marginBottom="3dp"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="#efeff4"/>
+	            <RadioButton
+	                android:id="@+id/refund_reason_list_reason_2"
+	                android:layout_width="match_parent"
+	           		android:layout_height="wrap_content"
+	           		android:padding="10dp"
+	           		android:button="@null"
+	           			android:drawableRight="@drawable/bg_radiobtn"
+	           		android:gravity="center_vertical|left"
+	           		android:textSize="@dimen/common_title_1_textsize_small"
+	           		android:textColor="#757575"
+	           		android:text="@string/refund_reason_list_reason_2"/>
+	            <View 
+	    	    android:layout_marginTop="3dp"
+	    	     android:layout_marginBottom="3dp"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="#efeff4"/>
+	            <RadioButton
+	                android:id="@+id/refund_reason_list_reason_3"
+	                android:layout_width="match_parent"
+	           		android:layout_height="wrap_content"
+	           		android:button="@null"
+	           		android:padding="10dp"
+	           			android:drawableRight="@drawable/bg_radiobtn"
+	           		android:gravity="center_vertical|left"
+	           		android:textSize="@dimen/common_title_1_textsize_small"
+	           		android:textColor="#757575"
+	           		android:text="@string/refund_reason_list_reason_3"/>
+	            <View 
+	    	    android:layout_marginTop="3dp"
+	    	     android:layout_marginBottom="3dp"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="#efeff4"/>
+	            <RadioButton
+	                android:id="@+id/refund_reason_list_reason_4"
+	                android:layout_width="match_parent"
+	           		android:layout_height="wrap_content"
+	           		android:button="@null"
+	           		android:padding="10dp"
+	           			android:drawableRight="@drawable/bg_radiobtn"
+	           		android:gravity="center_vertical|left"
+	           		android:textSize="@dimen/common_title_1_textsize_small"
+	           		android:textColor="#757575"
+	           		android:text="@string/refund_reason_list_reason_4"/>
+	            <View 
+	    	    android:layout_marginTop="3dp"
+	    	     android:layout_marginBottom="3dp"
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="#efeff4"/>
+	            <RadioButton
+	                android:id="@+id/refund_reason_list_reason_5"
+	                android:layout_width="match_parent"
+	           		android:layout_height="wrap_content"
+	           		android:button="@null"
+	           		android:padding="10dp"
+	           		android:textColor="#757575"
+	           			android:drawableRight="@drawable/bg_radiobtn"
+	           		android:gravity="center_vertical|left"
+	           		android:textSize="@dimen/common_title_1_textsize_small"
+	           		android:text="@string/refund_reason_list_reason_5"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_margin="@dimen/common_body_page_padding"
+        android:id="@+id/refund_reason_tucao_parent"
+        android:layout_above="@+id/refund_reason_do"
+        android:layout_marginTop="@dimen/common_view_vertical_spacing"
+        android:focusableInTouchMode="true">
+    <EditText
+        android:id="@+id/refund_reason_tucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/bg_white_corner_normal"
+        android:hint="@string/refund_reason_tucao"
+        android:minLines="5"
+        android:padding="@dimen/common_textview_padding"
+        android:textSize="@dimen/common_textsize_medium" /></LinearLayout>
+
+    <Button
+        android:id="@+id/refund_reason_do"
+        android:onClick="onViewClick"
+        android:layout_margin="@dimen/common_body_page_padding"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/common_view_vertical_spacing"
+        android:layout_width="match_parent"
+       
+        android:layout_alignParentBottom="true"
+         android:background="@color/mainblue"
+        android:text="@string/cancel_order_do"
+        android:textColor="@color/white" />
+
+   
+
+</RelativeLayout>

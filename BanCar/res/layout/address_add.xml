@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/TextView_biaoji001"
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="收货人"
+                android:textSize="@dimen/common_textsize_large" />
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/TextView_biaoji001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <EditText
+                    android:id="@+id/EditText_address_name001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:hint="姓名"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:textColor="#b3b3b3"
+                    android:textSize="@dimen/common_textsize_medium" 
+                    android:textCursorDrawable="@null"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/TextView_biaoji002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="手机号码"
+                android:textSize="@dimen/common_textsize_large" />
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/TextView_biaoji002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <EditText
+                    android:id="@+id/EditText_address_phone001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF"
+                    android:digits="@string/register_name_phone"
+                    android:gravity="right"
+                    android:hint="11位手机号码"
+                    android:maxLength="11"
+                    android:singleLine="true"
+                    android:textColor="#b3b3b3"
+                    android:textSize="@dimen/common_textsize_medium" 
+                    android:textCursorDrawable="@null"
+                    android:inputType="number"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_city_view_show001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="地区信息"
+                android:textSize="@dimen/common_textsize_large" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <TextView
+                    android:id="@+id/TextView_city_result001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:hint="请选择地址"
+                    android:singleLine="true"
+                    android:textColor="#b3b3b3"
+                    android:textSize="@dimen/common_textsize_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/TextView_biaoji003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="详细地址"
+                android:textSize="@dimen/common_textsize_large" />
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/TextView_biaoji003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <EditText
+                    android:id="@+id/EditText_address_detail001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:hint="街道门牌信息"
+                    android:singleLine="true"
+                    android:textColor="#b3b3b3"
+                    android:textSize="@dimen/common_textsize_medium" 
+                    android:maxLength="20"
+                    android:textCursorDrawable="@null"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/TextView_biaoji004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="邮政编码"
+                android:textSize="@dimen/common_textsize_large" />
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/TextView_biaoji004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <EditText
+                    android:id="@+id/EditText_address_youbian001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF"
+                    android:gravity="right"
+                    android:hint="邮政编码"
+                    android:singleLine="true"
+                    android:textColor="#b3b3b3"
+                    android:textSize="@dimen/common_textsize_medium"
+                    android:maxLength="10" 
+                    android:textCursorDrawable="@null"
+                    android:inputType="number"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEEE" />
+
+        <TextView
+            android:id="@+id/TextView_address_restaul001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/yuanjiao_button_lan"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="提   交"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!-- 城市联动选择 -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_city_liandong001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_city_liandong_test001"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#20000000"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TEST"
+                android:textColor="#00000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textview_city_quxiao001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/hintblack" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="选择城市"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textview_city_queren001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/inputblack" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/common_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_city_show001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="其他" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000" />
+
+                <TextView
+                    android:id="@+id/TextView_city_show002"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="其他" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000" />
+
+                <TextView
+                    android:id="@+id/TextView_city_show003"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="其他" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/common_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <ListView
+                    android:id="@+id/ListView_city001"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" 
+                    android:scrollbars="none"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000" />
+
+                <ListView
+                    android:id="@+id/ListView_city002"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" 
+                    android:scrollbars="none"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000" />
+
+                <ListView
+                    android:id="@+id/ListView_city003"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" 
+                    android:scrollbars="none"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

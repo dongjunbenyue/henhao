@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="1、排行榜榜单每周重置，累积邀请人数排名次；"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="2、榜单将在次周星期一凌晨0点统计前一日名次，实际有效邀请人数以周排名为主；"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="3、邀请人数相同，则以完成邀请人数的时间为考核标准（将不会存在相同的名次）。"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="4、奖品请用户自行在”邀请好友”中领奖。领取奖品后，我们将在第一时间为您送达我们的奖品。"/>   
+  
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="5、本活动最终解释权归犇车网所有。
+"/>    
+
+</LinearLayout>

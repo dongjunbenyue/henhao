@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_margin="5dp">
+<LinearLayout 
+    android:background="@color/mainblue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="center"
+    android:padding="10dp">
+    
+     <TextView
+         android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="温馨提示" />
+     </LinearLayout>
+     <View android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:background="@color/inputblack"/>
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否退出支付界面？" />
+    
+    <View android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:background="@color/hintblack"/>
+<LinearLayout 
+    android:background="@drawable/yuanjiao_biankuang_baikuang_touming"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/TextView_mydialog_quxiao001"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消" />
+    <View android:layout_width="1dp"
+         android:layout_height="match_parent"
+         android:background="@color/hintblack"/>
+     <TextView
+         android:id="@+id/TextView_mydialog_queren001"
+         android:padding="10dp"
+         android:layout_weight="1"
+         android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出" />
+     </LinearLayout>
+ 
+
+
+</LinearLayout>

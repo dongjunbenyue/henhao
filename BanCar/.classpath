@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/alipaySdk-20160120.jar"/>
+	<classpathentry kind="lib" path="libs/libammsdk.jar"/>
+	<classpathentry kind="lib" path="libs/BaiduLBS_Android.jar"/>
+	<classpathentry kind="lib" path="libs/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_base_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_cloud_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_map_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_radar_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_util_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_search_v3_6_1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-2.4-all.jar"/>
+	<classpathentry kind="lib" path="libs/core-3.2.1-all.jar"/>
+	<classpathentry kind="lib" path="libs/google-gson-latest-all.jar"/>
+	<classpathentry kind="lib" path="libs/pushservice-4.6.2.39.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Core-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/MobCommons-2016.0426.1819.jar"/>
+	<classpathentry kind="lib" path="libs/MobTools-2016.0426.1819.jar"/>
+	<classpathentry kind="lib" path="libs/jpush-android-2.1.7.jar"/>
+	<classpathentry kind="lib" path="libs/Rong_IMKit_v2_5_0.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.1.3.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.1.4.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QQ-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QZone-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/youzan-sdk-v2.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Moments-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Core-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-SinaWeibo-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Favorite-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-TencentWeibo-2.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpmime-4.2.5.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

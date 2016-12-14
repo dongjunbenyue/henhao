@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/textView_no_weizhang_tag001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yuanjiao_biankuang_hui"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="暂无违章记录" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_jieguo_show001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView_weizhang_chepai001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yuanjiao_biankuang_huangkuang_touming"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="湘ADF998" />
+
+        <ListView
+            android:id="@+id/ListView_weizhang_search_res001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

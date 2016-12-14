@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+		    android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:layout_marginTop="@dimen/common_view_vertical_spacing_half"
+	    	android:layout_marginBottom="5dp"
+	    	android:background="@color/transparent">
+	    	<LinearLayout android:layout_width="0dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:orientation="horizontal"
+	    	    android:layout_weight="5">
+    		<TextView
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginRight="5dp"
+		    	android:textColor="@color/inputblack"
+		    	android:gravity="center_vertical|left"
+		    	
+		    	android:id="@+id/projectName"
+		    	android:textSize="14dp"
+		    	android:text="机油"/>
+    		<TextView
+			    android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:textColor="#292828"
+		    	android:id="@+id/Accessory"
+		    	android:gravity="center_vertical"
+		    	android:textSize="12dp"
+		    	android:text="原厂银美浮5W-30 SM级全合成"/>
+    		</LinearLayout>
+    		
+    		<LinearLayout android:layout_width="0dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:orientation="horizontal"
+	    	    android:layout_weight="1">    		
+    		<TextView  android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:textColor="@color/inputblack"
+		    	android:layout_marginLeft="3dp"
+		    	android:id="@+id/qianshu"
+		    	android:gravity="center|right"
+		    	android:text="111"
+		    	android:textSize="12dp"/>
+    		</LinearLayout>
+    		
+		</LinearLayout>
+
+</LinearLayout>

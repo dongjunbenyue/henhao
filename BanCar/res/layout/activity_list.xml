@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:layout_marginTop="1dp"
+        android:id="@+id/listView_delete001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:scrollbars="none"/>
+    <TextView android:id="@+id/TextView_no_news001"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:text="列表暂无"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:textColor="@color/inputblack"
+    android:background="@drawable/yuanjiao_biankuang_hui"
+    />
+</RelativeLayout>

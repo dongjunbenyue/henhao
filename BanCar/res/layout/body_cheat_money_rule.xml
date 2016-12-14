@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="1.犇车网诚邀用户加入邀请”邀请好友夺好礼”计划；"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="2.好友通过邀请人链接成功注册犇车网，即可参加犇车网“邀请好友夺好礼”计划排名，排名高者，即有相关好礼相送；"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="3.邀请列入排名需被邀请用户下载登录犇车网时有效；"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="4.排名每周更新一次，周末统计出本周邀请人数最多的用户，犇车网活动奖品由本公司仓库进行发货；
+"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="5.如邀请人采用某些技术手段，或邀请的好友身份信息异常，一经核实，犇车网保留拒绝支付奖励的权利；
+"/>   
+
+   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="6.有任何疑问，可随时拨打犇车网客服电话：400-018-5215；
+"/>   
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:text="7.本活动最终解释权归犇车网所有。
+"/>    
+
+</LinearLayout>

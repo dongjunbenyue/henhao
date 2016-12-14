@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+ <LinearLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="15dp"
+     android:id="@+id/bank_card_RelativeLayout"
+     android:layout_marginTop="1dp"
+     android:background="@color/white"
+     android:orientation="horizontal"
+     >
+ <TextView android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="到账银行卡"
+           android:textColor="@color/black"
+           android:textSize="14sp"/>
+ <TextView android:layout_width="0dp"
+     android:layout_weight="1"
+           android:id="@+id/TextView_withdraw_cash_bankcard001"
+           
+           android:gravity="right"
+           android:layout_height="wrap_content"
+           android:textColor="@color/mainblue"
+           android:textSize="14sp"/>
+     
+ </LinearLayout>   
+<LinearLayout 
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="15dp"
+     android:layout_marginTop="1dp"
+     android:background="@color/white"
+     android:orientation="vertical">
+<TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+          android:textSize="14sp"
+          android:text="提现金额"/>
+ <EditText android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:id="@+id/tixianjine"
+          android:textColor="@color/black"
+          android:textSize="32sp"
+          android:text=""/>   
+  <View android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginTop="15dp"
+         android:background="@color/common_bg"/>
+  <LinearLayout android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp"
+                android:text="零钱余额"/>
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:id="@+id/EditText_withdraw_cash_sumcash001"
+          android:textColor="@color/hintblack"
+          android:text="$546546"/>
+  </LinearLayout> 
+                
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/white">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:id="@+id/TextView_withdraw_cash_next001"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="提现"
+        android:background="@drawable/yuanjiao_button_lan"/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/LinearLayout_main_bottom_button001" >
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/common_bg" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    android:id="@+id/ImageView_kefu_storemannager001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kefu" />
+           
+            <!-- 没有归属弹窗 -->
+
+            <RelativeLayout
+                android:padding="15dp"
+                android:id="@+id/RelativeLayout_no_service_xml001"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent20"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <include layout="@layout/storemanager_no_service_xml" />
+            </RelativeLayout>
+            <!-- 提交成功 -->
+
+            <RelativeLayout
+                 android:padding="15dp"
+                android:id="@+id/RelativeLayout_no_service_submit_success001"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent20"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <include layout="@layout/storemanager_no_service_submit_success" />
+            </RelativeLayout>
+            <!-- 有客服归属 -->
+
+            <RelativeLayout
+                android:padding="15dp"
+                android:id="@+id/RelativeLayout_have_service_xml001"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent20"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <include layout="@layout/storemanager_have_service_xml" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            
+            android:id="@+id/LinearLayout_main_bottom_button001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/View001"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e8e8e8" />
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/View001" >
+
+                <include layout="@layout/common_toolbar_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/View001"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/TextView_kefu_storemannager001"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/yuan_red" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</TabHost>

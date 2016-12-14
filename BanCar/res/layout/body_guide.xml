@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   
+                   android:background="#00000000">
+      <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_home_buttom1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+           
+            />
+        <RadioGroup
+            android:id="@+id/radiogroup002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:button="@drawable/bg_viewpage_yuan" />
+
+            <RadioButton
+                android:id="@+id/radio002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:button="@drawable/bg_viewpage_yuan" />
+             <RadioButton
+                android:id="@+id/radio003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:button="@drawable/bg_viewpage_yuan" />
+
+             <RadioButton
+                 android:id="@+id/radio004"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:button="@drawable/bg_viewpage_yuan"
+                 android:padding="5dp" />
+              
+        </RadioGroup>  
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/zhuceimage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:text="立即体验"
+            android:textColor="@color/white"
+            android:background="@drawable/yindaoyetext"
+            />
+    
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<!-- 通用布局  标题  1 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+    <Button
+        android:id="@id/common_title_1_left_view"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:gravity="center_vertical"
+    	android:drawableLeft="@drawable/preback"
+    	android:text="@string/app_name"
+    	android:background="@color/white"
+    	android:onClick="onViewClick"
+    	android:paddingLeft="5dp"
+    	android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@id/common_title_1_center_view"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:gravity="center_vertical"
+    	android:textColor="@color/black"
+    	android:textSize="@dimen/common_title_1_textsize_large" 
+    	android:text="@string/app_name"/>
+    <RelativeLayout 
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:id="@id/common_title_1_right_view"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_vertical"/>
+    <TextView
+        android:visibility="gone"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/TextView_kefu_storemannager001"
+        android:layout_alignRight="@+id/common_title_1_right_view"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="@drawable/yuan_red" />
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="@color/common_bg"
+         android:layout_alignParentBottom="true"/>
+</RelativeLayout>

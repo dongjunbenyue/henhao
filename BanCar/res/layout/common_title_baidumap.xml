@@ -1,0 +1,51 @@
+<!-- 通用布局  标题  1 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainblue002" >
+
+        <Button
+            android:id="@+id/common_title_1_left_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/pre"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_alignRight="@+id/common_title_1_left_view"
+            android:id="@+id/common_title_1_center_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:text="位置"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/common_title_1_right_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="发送"
+            android:textColor="@color/mainblue"
+            android:background="@drawable/yuanjiao_biankuang_bai"
+            android:textSize="14sp" />
+    </RelativeLayout>
+<View android:layout_width="match_parent"
+         android:layout_height="0.5dp"
+         android:background="@color/common_bg"
+         android:layout_alignParentBottom="true"/>
+</RelativeLayout>

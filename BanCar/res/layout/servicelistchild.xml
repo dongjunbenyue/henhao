@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+     >
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+       android:layout_marginLeft="10dp"
+       android:id="@+id/rl1"
+       android:layout_marginStart="10dp"
+       >  
+ <View android:layout_width="1dp"
+      android:layout_height="fill_parent"
+      android:layout_centerHorizontal="true"
+      
+      android:id="@+id/view"
+      android:background="#efeff4" 
+     /> 
+ <ImageView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+     android:layout_marginTop="10dp"
+     android:background="@drawable/icon_landian"
+     android:scaleType="fitXY"/>     
+    
+</RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_toRightOf="@+id/rl1"
+    android:layout_toEndOf="@+id/rl1"
+    android:id="@+id/time"
+    android:textColor="@color/inputblack"
+    android:text="nihao"/>
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/content"
+  
+    android:layout_toRightOf="@+id/rl1"
+    android:layout_toEndOf="@+id/rl1"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:text="nihao"
+    android:textSize="16sp"
+    android:textColor="@color/inputblack"
+    />
+
+</RelativeLayout>

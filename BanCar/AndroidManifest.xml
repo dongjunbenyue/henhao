@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bcwcar.android.bencar"
+    android:versionCode="4"
+    android:versionName="1.0.0.160119_Alpha" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+    <!-- 防止设备休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <!-- 查看 Wi-Fi 状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 控制振动器 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Push service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <!-- 定位权限 -->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 定位权限         end -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 分享平台使用的权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 推送==============================START============== -->
+   
+      <permission
+        android:name="com.bcwcar.android.bencar.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+  
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="com.bcwcar.android.bencar.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 推送=================================END=========== -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- ================================start=================================================== -->
+        <!-- SplashActivity引导 -->
+        <activity
+            android:name="com.bcwcar.android.bencar.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- For test only 测试状态通知栏，需要打开的Activity -->
+        <activity
+            android:name="com.bcwcar.android.bencar.activity.TestActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="jpush.testAction" />
+
+                <category android:name="jpush.testCategory" />
+            </intent-filter>
+        </activity>
+        <!-- MainActivity主页 -->
+        <activity
+            android:name="com.bcwcar.android.bencar.activity.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainDiscovery.MainDiscovery" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.MainMyActivity" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.LoginActivity" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Userinfor" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AddAdress" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AddAdress1" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.UserAdress" >
+        </activity>
+        <!-- WebViewActivityDataShow消息webview -->
+        <activity android:name="com.bcwcar.android.bencar.activity.WebViewActivityDataShow" >
+        </activity>
+
+        <!-- BankCarActivity -->
+        <activity android:name="com.bcwcar.android.bencar.activity.BankCarActivity" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainHome.AdActivity"></activity>
+        <!-- 犇车钱包 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Balance" >
+        </activity>
+        <!-- 设置 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.SettingActivity" >
+        </activity>
+        <!-- 紧急救援 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Emergence" >
+        </activity>
+        <!-- 隐私声明 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AboutUsSecret" >
+        </activity>
+        <!-- 加盟选择车辆品牌 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.SelectBrandActivity002" >
+        </activity>
+        <!-- 关于我们 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AboutUs" >
+        </activity>
+        <!-- 常见问题 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.FaqActivity" >
+        </activity>
+        <!-- 意见反馈 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Acitivityfankui" >
+        </activity>
+        <!-- 犇车介绍 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.BcwIntroduce" >
+        </activity>
+        <!-- 店家入驻 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.JoinStore4SActivity" >
+        </activity>
+        <!-- 违章查询 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WeiZhangSearchPage" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WeiZhangRestual" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WeiZhangCityList" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.PaymentResultOrderDetailActivity1"></activity>
+        <!-- 友赞商城 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.YouZanActivity" >
+        </activity>
+        <!-- 免费保养 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.FreeMantence" >
+        </activity>
+        <!-- 邀请排名 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.RankActivity" >
+        </activity>
+        <!-- 添加银行卡 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AddBankCardActivity" >
+        </activity>
+        <!-- 选择银行卡 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.SelectBankActivity" >
+        </activity>
+        <!-- 消费明细 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.MyMoneyDetailActivity" >
+        </activity>
+        <!-- 金额说明 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.JinEShuoMing" >
+        </activity>
+        <!-- 提现 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WithdrawalsActivity" >
+        </activity>
+        <!-- 密码验证 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WithdrawCashPasswordPhone" >
+        </activity>
+        <!-- 设置密码 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.WithdarwSettingsCashPassword" >
+        </activity>
+        <!-- 我的订单 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.MyOrderActivity" >
+        </activity>
+        <!-- 退款 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.RefundReasonActivity" >
+        </activity>
+        <!-- 取消订单 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.CancelOrderActivity" >
+        </activity>
+        <!-- 订单评价 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.EvaluateActivity" >
+        </activity>
+        <!-- 代驾 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.DaijiaActivity" >
+        </activity>
+        <!-- 充值 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Chargemoney" >
+        </activity>
+        <!-- 充值方式 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.PaytoCharge" >
+        </activity>
+        <!-- 退款流程 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.RefundList" >
+        </activity>
+        <!-- 全部订单 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.MyOrderAll" >
+        </activity>
+        <!-- 积分商城 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.CreditActivity" >
+        </activity>
+        <!-- 我的抵用券 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.MyWalletCouponActivity" >
+        </activity>
+        <!-- 抵用卷规则 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.JiFenShuoMing" >
+        </activity>
+        <!-- 追加订单 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AddProjectMyOrder" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.GuideActivity" />
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.CheatmoneyPrize" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Regist" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.AboutUsSecret002" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Cheatmoneyrule" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.RankRule" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.SelectMale" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.Setpassword" >
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.ServiceActivity" >
+           
+        </activity>
+        <activity android:name="com.bcwcar.android.bencar.activity.MainMy.ConfermOrder"></activity>
+        <!-- CaptureActivity扫描 -->
+        <activity android:name="qrcode.activity.CaptureActivity" />
+        <!-- MainHomeFinishActivity主页已经登陆 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainHome.MainHome" />
+        <!-- CitySecondPage 选择城市二级页面 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.CitySecondPage" />
+        <!-- SelectCityActivity 选择城市身份 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SelectCityActivity" />
+        <!-- SelectBrandActivity 品牌列表 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SelectBrandActivity" />
+        <!-- VincodeActivity填吗识车FillSelectActivity -->
+        <activity android:name="com.bcwcar.android.bencar.activity.VincodeActivity" />
+        <activity android:name="com.bcwcar.android.bencar.activity.FillSelectActivity" />
+        <!-- Getquan获取券 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.Getquan" />
+        <!-- HuoDongShuoMing活动券说明 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.HuoDongShuoMing" />
+        <!-- SelectSeriesinfoActivity选择车系和年款 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SelectSeriesinfoActivity" />
+        <!-- CarInformationActivity填写爱车信息页面 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.CarInformationActivity" />
+        <!-- SmartMaintenanceActivity智能保养方案 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SmartMaintenanceActivity" />
+        <!-- SelectCarActivity默认车辆页面 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SelectCarActivity" />
+        <!-- GongXiangShuoMing共享说明 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.GongXiangShuoMing" />
+        <!-- AddProjectActivity增加项目 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.AddProjectActivity" />
+        <!-- FillInOrderActivity订单填写页面 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.FillInOrderActivity" />
+        <!-- WangDianDatas网点详情 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.WangDianDatas" />
+        <!-- SelectShop4S 选择4s店 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.SelectShop4S" />
+        <!-- PaymentResultOrderDetailActivity订单详情页 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.PaymentResultOrderDetailActivity" />
+        <!-- PaymentResultActivity  付款结果也 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.PaymentResultActivity" />
+        <!-- PaymentMethodActivity 付款也 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.PaymentMethodActivity" />
+        <!-- ShopImageShowActivity展示图片 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.ShopImageShowActivity" />
+        <!-- MainServiceNetworkActivity服务网点 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainServiceNetworkActivity" />
+        <!-- StoreServiceNetworkActivity管家服务网点 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.StoreServiceNetworkActivity" />
+        <!-- GoToPinjia去评价 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.GoToPinjia" />
+        <!-- OpenBaiMap 原生百度地图 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.OpenBaiMap" />
+        <!-- PhotoActivity聊天界面大图zhanshi -->
+        <activity android:name="com.bcwcar.android.bencar.activity.PhotoActivity" />
+        <!-- EverydayFeel 顾问心得 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.EverydayFeel" />
+        <!-- ShopQuanQuitActivity购买券 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.ShopQuanQuitActivity" />
+        <!-- PayQuanActivity券支付页面 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.PayQuanActivity" />
+        <!-- TicketListActivity可用券选择 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.TicketListActivity" />
+        <!-- DiscoverProjectDetailActivity发现页面item详情 -->
+        <activity android:name="com.bcwcar.android.bencar.activity.MainDiscovery.DiscoverProjectDetailActivity" />
+        <!-- ==============================activity==END============================================== -->
+        <activity
+            android:name="com.bcwcar.android.bencar.weixinpay.PayActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx9bf169acb95ed5ab" />
+            </intent-filter>
+        </activity>
+
+        <!-- 会话页面 -->
+        <activity
+            android:name="com.bcwcar.android.bencar.activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.bcwcar.android.bencar"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <!-- 会话列表页面 -->
+        <activity
+            android:name="com.bcwcar.android.bencar.activity.ConversationListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.bcwcar.android.bencar"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+        <!-- 融云会话 -->
+        <service
+            android:name="io.rong.push.PushService"
+            android:process="io.rong.push" >
+
+            <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="io.rong.push" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="io.rong.push.CommandService"
+            android:process="io.rong.push" >
+
+            <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="io.rong.command" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="io.rong.push.PushReceiver"
+            android:process="io.rong.push" >
+
+            <!-- Waring: The name of the push process can't be changed!!! -->
+            <intent-filter>
+                <action android:name="io.rong.imlib.action.push.heartbeat" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.rong.imkit.tools.SelectPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.tools.PreviewPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.tools.RongWebviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:process=":ipc" >
+        </service>
+        <service android:name="io.rong.imlib.ReConnectService" />
+
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver" />
+        <receiver android:name="io.rong.imlib.ipc.PushMessageReceiver" >
+            <intent-filter>
+                <action android:name="io.rong.push.message" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:process=":ipc" />
+        <!-- 融云测试环境 -->
+        <!--
+             <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="uwd1c0sxd97n1" />
+        -->
+
+
+        <!-- 融云正式环境 -->
+        <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="8luwapkvue7gl" />
+
+        <!-- 分享平台使用的数据定义 -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx96accf0dda1fba21" />
+            </intent-filter>
+        </activity>
+
+        <!-- AppID 友赞商城 -->
+        <meta-data
+            android:name="YZ_APP_ID"
+            android:value="b7cc6e1707b7f30dc5" />
+        <!-- AppSecret -->
+        <meta-data
+            android:name="YZ_APP_SECRET"
+            android:value="48f519955273da55773a6b70de622af1" />
+
+        <!-- 微信支付回调 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wx96accf0dda1fba21" />
+            </intent-filter>
+        </activity>
+
+        <!-- 支付宝 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+
+        <!-- 百度定位 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="WtjF6iwsbSqvWjiQuGNsVFmE4yVsdvEF" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- push service start -->
+
+
+        <!-- push富媒体，不使用富媒体推送不需要 -->
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaViewActivity" >
+        </activity>
+        <activity
+            android:name="com.baidu.android.pushservice.richmedia.MediaListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="MediaListActivity" >
+        </activity>
+        <!-- push富媒体结束 -->
+        <!-- 用于接收系统消息以保证PushService正常运行 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Push服务接收客户端发送的各种请求 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+
+        <!-- push结束 -->
+        <!-- 4.6版本新增的Activity声明，提升Push后台存活率 -->
+        <activity
+            android:name="com.baidu.android.pushservice.PushKeepAlive"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 此处Receiver名字修改为当前包名路径 -->
+        <receiver android:name="com.bcwcar.android.bencar.activity.PushTestReceiver" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 在百度开发者中心查询应用的API Key -->
+        <meta-data
+            android:name="api_key"
+            android:value="X90zf7q4KWIcmA7uCcZkpsYw" />
+
+        <!-- jigua极光推送======================================== -->
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.bcwcar.android.bencar" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.bcwcar.android.bencar" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+ <!-- Required  显示通知栏 -->
+                <category android:name="com.bcwcar.android.bencar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.bcwcar.android.bencar.base.MyReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+ <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+ <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+ <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+ <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+ <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+ <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.bcwcar.android.bencar" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="aec8a82918828c223b4a33be" />
+ <!-- </>值来自开发者平台取得的AppKey -->
+
+    </application>
+
+</manifest>

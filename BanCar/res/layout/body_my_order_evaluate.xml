@@ -1,0 +1,201 @@
+<!-- 我的订单|发布评价 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/common_body_page_padding" >
+
+        <LinearLayout
+            style="@style/BaseLineView"
+            android:background="@color/transparent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/my_order_evaluate_shop_score" />
+
+            <RatingBar
+                android:id="@+id/my_order_evaluate_OrderScore"
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/roomRatingBarbig1"
+                android:layout_gravity="center"
+                android:rating="5"
+                android:stepSize="1.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/BaseLineView"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yuanjiao"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/my_order_evaluate_OrderComment"
+                style="@style/BaseLineView"
+                android:background="@null"
+                android:hint="@string/my_order_evaluate_edittext_hint"
+                android:lineSpacingExtra="5dp"
+                android:minLines="5"
+                android:textColor="#b3b3b3"
+                android:textSize="16sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/my_order_evaluate_OrderPics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_add_imageview001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/ImageView_add001"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/common_view_vertical_spacing_half"
+                            android:contentDescription="@null"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout_add_imageview002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#efeff4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkpinglun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="匿名评价" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Button_fabu_tijaio001"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/yuanjiao_button_lan"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:text="@string/my_order_evaluate_submit" />
+    </LinearLayout>
+ <!--调用系统相机和图片  -->
+
+ <RelativeLayout
+        android:id="@+id/RelativeLayout_camera_show001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="#55000000" >
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/LinearLayout_camera_show_zhaoxiang001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yuanjiao_biankuang_baikuang_touming"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+           <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="照相"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+               <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_bg"/>
+            <LinearLayout
+                 android:id="@+id/LinearLayout_camera_show_bendi001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="本地获取"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+            <View android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/common_bg"/>
+  <LinearLayout
+       android:id="@+id/LinearLayout_camera_show_quxiao001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+         
+        </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

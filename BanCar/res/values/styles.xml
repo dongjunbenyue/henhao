@@ -1,0 +1,89 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+     <style name="BaseView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/common_view_horizontal_spacing_half</item>
+        <item name="android:layout_marginRight">@dimen/common_view_horizontal_spacing_half</item>
+        <item name="android:layout_marginTop">@dimen/common_view_vertical_spacing_half</item>
+        <item name="android:layout_marginBottom">@dimen/common_view_vertical_spacing_half</item>
+    </style>
+    <style name="BaseLineView" parent="BaseView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/common_textview_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/common_textview_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/common_textview_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/common_textview_padding_vertical</item>
+    </style>
+     <style name="BaseViewWithText" parent="BaseView">
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">@dimen/common_title_1_textsize_medium</item>
+    	<item name="android:textColor">@color/black</item>
+    </style>
+    <style name="BaseTextView" parent="BaseViewWithText">
+        <item name="android:paddingLeft">@dimen/common_textview_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/common_textview_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/common_textview_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/common_textview_padding_vertical</item>
+    </style>
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/myratingbar</item>    
+        <item name="android:minHeight">10dp</item>    
+        <item name="android:maxHeight">20dp</item>    
+    </style> 
+    <style name="MyRatingBar001" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/myratingbar001</item>    
+        <item name="android:minHeight">20dp</item>    
+        <item name="android:maxHeight">20dp</item>    
+    </style> 
+<style name="roomRatingBarbig1" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/ratingbarbig</item>
+		<item name="android:minHeight">30dp</item>
+		<item name="android:maxHeight">30dp</item>
+	</style>
+ 	<style name="MyRatingBar_m" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/ratingbar_m</item>
+		<item name="android:minHeight">20dp</item>
+		<item name="android:maxHeight">20dp</item>
+	</style> 
+    <!-- 工具栏上的RadioButton按钮样式 -->
+    <style name="Common_Toolbar_RadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:paddingBottom">@dimen/common_toolbar_1_radiobutton_padding_vertical</item>
+        <item name="android:background">@drawable/bg_toolbar_all</item>
+        <item name="android:textSize">@dimen/common_toolbar_1_radiobutton_textsize</item>
+        <item name="android:textColor">@color/inputblack</item>
+    </style>
+    <!--  z加载dialog-->
+<style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<!-- 选择车型型号的ListView使用的行布局文件 -->
+
+
+<LinearLayout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:padding="10dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/select_brand_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:roundAsCircle="false" />
+
+    <TextView
+        android:id="@+id/select_brand_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="left" 
+        android:textSize="16sp"
+        android:textColor="@color/inputblack"/>
+   <TextView
+       android:id="@+id/lingjuan"
+       android:layout_marginRight="32dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:drawableRight="@drawable/jinap"
+       android:visibility="gone"/>
+   
+</LinearLayout>

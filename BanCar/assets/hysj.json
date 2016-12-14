@@ -1,0 +1,74 @@
+﻿{
+    "ResponseCode": "0",
+    "ResponseDescription": "",
+    "Data": [
+        {
+            "IndustryId": "4a698160-43eb-11e6-893a-00163e013024",
+            "IndustryName": "IT"
+        },
+        {
+            "IndustryId": "7578563e-43ec-11e6-893a-00163e013024",
+            "IndustryName": "金融"
+        },
+        {
+            "IndustryId": "92a3e64c-43ec-11e6-893a-00163e013024",
+            "IndustryName": "建筑"
+        },
+        {
+            "IndustryId": "a90ac137-43ec-11e6-893a-00163e013024",
+            "IndustryName": "服务"
+        },
+        {
+            "IndustryId": "af5c1d70-43ec-11e6-893a-00163e013024",
+            "IndustryName": "设计"
+        },
+        {
+            "IndustryId": "b544d6f8-43ec-11e6-893a-00163e013024",
+            "IndustryName": "管理"
+        },
+        {
+            "IndustryId": "bac7879b-43ec-11e6-893a-00163e013024",
+            "IndustryName": "零售"
+        },
+        {
+            "IndustryId": "c2ab5f24-43ec-11e6-893a-00163e013024",
+            "IndustryName": "贸易"
+        },
+        {
+            "IndustryId": "c9922ff2-43ec-11e6-893a-00163e013024",
+            "IndustryName": "教育"
+        },
+        {
+            "IndustryId": "cfa9869e-43ec-11e6-893a-00163e013024",
+            "IndustryName": "工艺"
+        },
+        {
+            "IndustryId": "d565e41d-43ec-11e6-893a-00163e013024",
+            "IndustryName": "生产"
+        },
+        {
+            "IndustryId": "daa7f28f-43ec-11e6-893a-00163e013024",
+            "IndustryName": "交通"
+        },
+        {
+            "IndustryId": "e28821d3-43ec-11e6-893a-00163e013024",
+            "IndustryName": "物流"
+        },
+        {
+            "IndustryId": "e9e80760-43ec-11e6-893a-00163e013024",
+            "IndustryName": "能源"
+        },
+        {
+            "IndustryId": "ef6e30d9-43ec-11e6-893a-00163e013024",
+            "IndustryName": "环保"
+        },
+        {
+            "IndustryId": "f4b0e17b-43ec-11e6-893a-00163e013024",
+            "IndustryName": "政府"
+        },
+        {
+            "IndustryId": "fa1e755b-43ec-11e6-893a-00163e013024",
+            "IndustryName": "其他"
+        }
+    ]
+}

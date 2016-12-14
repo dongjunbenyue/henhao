@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/SimpleDraweeView_hoting_carshop001"
+        android:layout_width="60dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:failureImage="@drawable/moren"
+        fresco:roundAsCircle="false"
+        fresco:roundedCornerRadius="10dp"
+        fresco:viewAspectRatio="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/LinearLayout_shop_km001"
+        android:layout_toRightOf="@+id/SimpleDraweeView_hoting_carshop001"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView_shop_name_hoting001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="5"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="长沙四海国际4S店"
+            android:textColor="#181818"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/shangdian"
+                android:drawablePadding="10dp"
+                android:text="服务厂商："
+                android:textColor="@color/hintblack"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/TextView_shop_changshang_hoting001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="荣威、MG"
+                android:textColor="@color/hintblack"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_shop_adrress_hoting001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/dingwei"
+            android:drawablePadding="8dp"
+            android:ellipsize="end"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="湖南长沙岳麓区麓谷工业园"
+            android:textColor="@color/hintblack"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_shop_km001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TextView_shop_distance_hoting001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:textColor="@color/mainblue"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="km"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+</RelativeLayout>

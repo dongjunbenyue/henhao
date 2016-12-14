@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+     >
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginTop="37dp"
+          android:orientation="vertical"
+          
+          android:gravity="center"
+          >
+         <ImageView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/logo_sure"/>
+         <TextView android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:gravity="center"
+             android:textColor="@color/black"
+             android:layout_marginTop="2dp"
+             android:text="犇    车   网"/>
+         <TextView android:layout_width="wrap_content" 
+             android:layout_marginTop="2dp"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+            
+             android:textSize="10sp"
+             android:textColor="@color/inputblack"
+             android:text="车友们的共享经济"/>
+         <TextView android:layout_width="wrap_content" 
+             android:layout_marginTop="2dp"
+             android:id="@+id/benchecode"
+             android:layout_height="wrap_content"
+             android:textSize="10sp"
+             
+             android:textColor="@color/inputblack"
+             android:text="v215"/>
+         
+     </LinearLayout>
+       <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="18.5dp"
+         android:textColor="@color/inputblack"
+         android:textSize="12sp"
+         android:layout_marginLeft="11.5dp"
+         android:layout_marginRight="11.5dp"
+         android:lineSpacingExtra="8dp"
+         android:text="犇车网，是一家连接汽车4S店售前、售后，保险、旅游及车有关的汽车后市场综合服务平台。以服务为宗旨，以客户为导向，使保养更简单，售后更优惠。
+犇车网将打造一站式的汽车售后服务体系：以车主为核心，为车主提供4S店透明的售后价格体系、最实惠的车险套餐。以4S店为载体，为4S店解决客户保养流失率。
+          "/>
+</LinearLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_alignParentBottom="true"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:id="@+id/textviewphone"
+    android:paddingBottom="10dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_textsize_medium"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:text="客服电话：400-018-5025"/>
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_dianhua"/>
+</RelativeLayout>
+</RelativeLayout>

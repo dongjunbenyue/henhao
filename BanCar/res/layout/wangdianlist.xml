@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+
+<!-- 选择车型型号的ListView使用的行布局文件 -->
+
+<RelativeLayout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yuanjiao_biankuang_bai" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_wangdian_list001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/wangdian_logo001"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1" />
+
+            <RatingBar
+                android:id="@+id/ratingBar_shopstar001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" 
+                android:isIndicator="true"
+                style="@style/MyRatingBar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                   android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wangdian_name001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:text="43534534534"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/TextView_km_number001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/mainblue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="km"
+                        android:textColor="@color/inputblack" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/shangdian"
+                        android:drawablePadding="10dp"
+                        android:singleLine="true"
+                        android:text="服务厂商："
+                        android:textColor="@color/hintblack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/wangdian_changshang001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/hintblack"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/wangdian_adrress001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/dingwei"
+                android:drawablePadding="8dp"
+                android:singleLine="true"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp" />
+<View
+    android:id="@+id/View001"
+    android:layout_below="@+id/LinearLayout_wangdian_list001"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/common_bg"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="65dp"
+        android:id="@+id/RelativeLayout_yuyue001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayout_wangdian_list001"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_alignParentLeft="true"
+              android:id="@+id/LinearLayout_have_quan001"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/wangdian_yuding001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_quan" />
+
+            <TextView
+                android:id="@+id/TextView_shuoming001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:text="店家有抵用券活动"
+                android:textColor="@color/inputblack"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_alignParentLeft="true"
+    android:id="@+id/LinearLayout_no_quan001"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/wangdian_yuding001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zhe" />
+
+            <TextView
+                android:id="@+id/TextView_shuoming002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:text="养车折扣8.0折起"
+                android:textColor="@color/inputblack"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/wangdian_yuding001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8.5dp"
+           android:paddingTop="5dp"
+           android:paddingBottom="5dp"
+android:paddingLeft="10dp"
+android:paddingRight="10dp"
+            android:text="￥0"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

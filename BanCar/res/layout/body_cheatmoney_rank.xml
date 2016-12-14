@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+   <LinearLayout android:layout_width="match_parent"
+      
+       android:background="@color/white"
+       android:layout_height="80dp"
+       android:layout_gravity="center_vertical"
+       android:orientation="horizontal">
+       <LinearLayout android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:layout_weight="1"
+           android:paddingLeft="15dp">
+           
+       </LinearLayout>
+       <LinearLayout android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:layout_weight="3.5"
+           android:paddingLeft="15dp">
+       <com.facebook.drawee.view.SimpleDraweeView
+               
+                android:id="@+id/paimingtouxiang"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                
+                android:background="@drawable/moren"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="true"
+                fresco:viewAspectRatio="1" /> 
+                <LinearLayout android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center_vertical"
+           android:orientation="vertical"
+           
+           android:paddingLeft="15dp">
+             <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/nickname"
+                 android:textColor="@color/black"
+                 android:text="nickname"
+                 />  
+                  <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/paimingtext"
+                 android:textColor="@color/inputblack"
+                 android:textSize="13sp"
+                 android:layout_marginTop="10dp"
+                 android:text="第15名"
+                 />        
+                </LinearLayout>    
+       </LinearLayout>
+       <LinearLayout android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical|right"
+           android:layout_weight="1"
+           android:orientation="horizontal"
+           android:paddingRight="15dp">
+           <TextView android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            
+            android:text="000"
+            android:textColor="@color/black"
+            android:id="@+id/invitenum"/>
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:gravity="center_vertical"
+          android:textColor="@color/black"
+      
+          android:text="人"/>
+       </LinearLayout>
+      
+   </LinearLayout>
+   <ListView android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+      
+      
+       android:id="@+id/ranklistview"></ListView>
+
+</LinearLayout>

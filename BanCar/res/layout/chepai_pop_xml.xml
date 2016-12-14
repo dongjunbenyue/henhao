@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_margin="5dp"
+            android:background="@drawable/yuanjiao_biankuang_bai" 
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textview_chepai_pop_quxiao001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="#555555" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="选择车牌归属地"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textview_chepai_pop_queren001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+                <NumberPicker
+                    android:id="@+id/NumberPicker_chepai_pop001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>

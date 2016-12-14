@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:orientation="horizontal"
+              android:background="@color/white"  >
+<LinearLayout android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="15dp"
+    
+    android:id="@+id/gotorecharge"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+   <ImageView android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="5dp"
+       android:src="@drawable/icon_yue"/> 
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:text="余额"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="@dimen/common_textsize_large"
+            android:textColor="@color/black"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/common_textsize_mediumup"
+            android:id="@+id/textbalance1"
+            android:text="1000"
+            android:textColor="@color/red"/>
+    </LinearLayout>  
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/common_textsize_smallup"
+              android:textColor="@color/inputblack"
+              android:layout_marginTop="10dp"
+              android:text="第三方充值"/>  
+    </LinearLayout>   
+</LinearLayout>   
+<View android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"/> 
+<LinearLayout android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="15dp"
+    android:id="@+id/addbank"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+   <ImageView android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="5dp"
+       android:src="@drawable/icon_yinhangka"/> 
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+                  android:orientation="horizontal">
+        <TextView android:text="银行卡"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="@dimen/common_textsize_large"
+            android:textColor="@color/black"/>
+        
+    </LinearLayout>
+     <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:textSize="@dimen/common_textsize_smallup"
+              android:textColor="@color/inputblack"
+              android:text="添加银行卡"/>      
+    </LinearLayout>   
+</LinearLayout>    
+</LinearLayout>    
+<LinearLayout android:layout_width="match_parent"
+    android:layout_marginTop="1dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+    <TextView android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_weight="1"
+                android:drawablePadding="5dp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:id="@+id/consumption"
+               android:drawableTop="@drawable/icon_zhangdan"
+               android:textSize="@dimen/common_textsize_medium"
+               android:text="消费明细"/>
+    <View android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"/> 
+     <TextView android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+                android:drawablePadding="5dp"
+               android:gravity="center"
+               android:id="@+id/withdrawte"
+               android:layout_weight="1"
+               android:textColor="@color/black"
+               android:drawableTop="@drawable/icon_qianbao"
+               android:textSize="@dimen/common_textsize_medium"
+               android:text="提现"/>
+     <View android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"/> 
+      <TextView android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:gravity="center"
+               android:drawableTop="@drawable/icon_yueshezhi"
+               android:drawablePadding="5dp"
+               android:id="@+id/passwordcontrol"
+               android:layout_weight="1"
+               android:textColor="@color/black"
+               android:textSize="@dimen/common_textsize_medium"
+               android:text="密码管理"/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_bg"
+     >
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+    android:layout_height="match_parent" >
+  <com.facebook.drawee.view.SimpleDraweeView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         fresco:viewAspectRatio="1.4"
+        fresco:actualImageScaleType="focusCrop"
+        android:background="@drawable/emergency"/>
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="12dp"
+      android:gravity="center_horizontal">
+ <TextView android:layout_width="wrap_content"
+     
+     android:layout_height="wrap_content"
+     android:textSize="@dimen/common_textsize_small"
+     android:textColor="@color/inputblack"
+     android:gravity="center_horizontal"
+     android:drawablePadding="5dp"
+     android:drawableLeft="@drawable/icon_gantanhao"
+     android:text="我们会联系您归属的4s店，尽快为您提供服务"/> 
+     </LinearLayout>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/callphone"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="紧急呼叫"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/yuanjiao_button_red"
+        android:paddingBottom="15dp"
+        android:textSize="@dimen/common_textsize_large"/>
+</LinearLayout>
+</RelativeLayout>

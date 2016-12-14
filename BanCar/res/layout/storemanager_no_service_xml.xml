@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:background="@color/mainblue" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="你还没有4S店归属哦"
+        android:textColor="@color/inputblack" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_store_brand001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="品牌" 
+            android:textColor="@color/inputblack"/>
+
+        <TextView
+            android:gravity="right"
+            android:id="@+id/TextView_no_service_brand001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/xiayibu_mini"
+            android:hint="请选择您品牌"
+            android:padding="10dp" 
+            android:textColor="@color/inputblack"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/RelativeLayout_store_4s001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="4S店" 
+            android:textColor="@color/inputblack"/>
+
+        <TextView
+             android:id="@+id/TextView_no_service_shopname001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/xiayibu_mini"
+            android:hint="请选择4S店"
+            android:padding="10dp" 
+            android:textColor="@color/inputblack"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:id="@+id/TextView_store_submit001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="提  交"
+        android:textColor="@color/mainblue"
+        android:textSize="18sp" />
+</LinearLayout>

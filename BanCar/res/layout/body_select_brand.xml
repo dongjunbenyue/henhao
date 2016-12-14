@@ -1,0 +1,64 @@
+<!-- 选择车系品牌页面 body部分 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id="@+id/RelativeLayout2001"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hoting_car_brand"
+            android:textSize="16sp"/>
+      
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:textColor="@color/hintblack"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <GridView
+        android:layout_toLeftOf="@+id/ListView_car_name001"
+        android:layout_below="@+id/RelativeLayout2001"
+        android:scrollbars="none"
+        android:id="@+id/GridView_hoting_brand002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:numColumns="5" >
+    </GridView> 
+         <LinearLayout 
+             android:layout_marginTop="2dp"
+             android:layout_below="@+id/GridView_hoting_brand002"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:orientation="vertical"
+             >         
+        <ListView
+            android:id="@+id/select_brand_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:background="@color/transparent"
+            android:scrollbars="none" />
+        </LinearLayout>
+        <com.bcwcar.android.bencar.widget.XlistView.MyLetterListView
+            android:id="@+id/ListView_car_name001"
+            android:layout_width="30dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="#40000000" />
+
+
+</RelativeLayout>

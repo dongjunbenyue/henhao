@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+ <RelativeLayout android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="1dp"
+                 android:background="@color/white"
+                 android:id="@+id/common_problem"
+                 >
+<TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_marginLeft="12dp"
+           android:text="常见问题"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           /> 
+<ImageView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/xiayibu" 
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="12dp"
+           android:layout_centerVertical="true" />               
+ </RelativeLayout>   
+ <RelativeLayout android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="1dp"
+                 android:id="@+id/privacy_statement"
+                 android:background="@color/white"
+                 >
+<TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_marginLeft="12dp"
+           android:text="隐私声明"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           /> 
+<ImageView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/xiayibu" 
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="12dp"
+           android:layout_centerVertical="true" />               
+ </RelativeLayout> 
+  <RelativeLayout android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="1dp"
+                 android:id="@+id/introduce"
+                 android:background="@color/white"
+                 >
+<TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_marginLeft="12dp"
+           android:text="犇车介绍"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           /> 
+<ImageView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/xiayibu" 
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="12dp"
+           android:layout_centerVertical="true" />               
+ </RelativeLayout> 
+  <RelativeLayout android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="1dp"
+                 android:id="@+id/suggest"
+                 android:background="@color/white"
+                 >
+<TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_marginLeft="12dp"
+           android:text="意见反馈"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           /> 
+<ImageView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/xiayibu" 
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="12dp"
+           android:layout_centerVertical="true" />               
+ </RelativeLayout> 
+  <RelativeLayout android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="1dp"
+                 android:id="@+id/jionus"
+                 android:background="@color/white"
+                 >
+<TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_marginLeft="12dp"
+           android:text="店家入驻"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           /> 
+<ImageView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/xiayibu" 
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="12dp"
+           android:layout_centerVertical="true" />               
+ </RelativeLayout> 
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 工具栏上的服务网点按钮背景 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/discoverylan"
+        android:state_checked="true"
+        android:state_enabled="true">
+    </item>
+    <item android:drawable="@drawable/discoveryhui">
+    </item>
+
+</selector>

@@ -1,0 +1,71 @@
+<!-- 智能保养添加保养项目body页面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+	android:background="@color/inputblack"
+	>
+	<ScrollView 
+	    android:layout_above="@+id/lineer111"
+	    android:layout_width="match_parent"
+	    
+	    android:layout_height="match_parent">
+	    <LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+	<ListView
+	    android:id="@+id/add_project_list"
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:divider="@color/common_bg"
+    	android:dividerHeight="1dp"
+    	/>
+	</LinearLayout>
+	</ScrollView>
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/white"
+    	android:orientation="horizontal"
+    	android:id="@+id/lineer111"
+    	
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentBottom="true">
+	    <LinearLayout android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="15dp"
+	        android:layout_weight="4">
+	    <TextView
+		    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dp"
+    		
+    		android:textSize="@dimen/common_textsize_medium"
+	    	android:text="共付"/>
+	    <TextView
+	        android:id="@+id/add_project_num"
+		    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:textColor="@color/red"
+    		android:layout_marginLeft="5dp"
+    		android:textSize="@dimen/common_textsize_medium"
+	    	android:text="0"/>
+	  
+	    </LinearLayout>
+	    <TextView
+		    android:id="@+id/add_project_go"
+		    android:layout_width="wrap_content"
+		    android:padding="10dp"
+    		android:layout_height="match_parent"
+    		android:background="@color/mainblue"
+    		android:gravity="center|right"
+		    android:textColor="#ffffff"
+		    android:textSize="16sp"
+		    android:clickable="true"
+		    android:onClick="onViewClick"
+	    	android:text="去保养"/>
+	</LinearLayout>
+</RelativeLayout >

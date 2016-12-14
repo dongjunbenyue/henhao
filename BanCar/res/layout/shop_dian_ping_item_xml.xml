@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        
+        android:id="@+id/LinearLayout_wangdian_list001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_alignParentTop="true"
+                android:id="@+id/SimpleDraweeView_shop_dianping_user_head001"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1" />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/SimpleDraweeView_shop_dianping_user_head001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_pingluner_name001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:text="我心勾勒"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/TextView_punling_time001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="2016-10-15"
+                    android:textColor="@color/hintblack"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RatingBar
+                android:visibility="gone"
+                android:id="@+id/ratingBar_shoppinglun_info001"
+                style="@style/MyRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"/>
+ <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:gravity="left"
+                android:id="@+id/TextView_shop_content001"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+   </RelativeLayout>
+
+</LinearLayout>

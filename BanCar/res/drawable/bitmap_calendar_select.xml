@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/drawable_solid_green"  
+    android:src="@drawable/solid_green"
+    android:tileMode="disabled" android:gravity="center" >  
+</bitmap>  
+

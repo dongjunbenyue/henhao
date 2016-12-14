@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:background="@color/mainblue" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="2"
+            android:background="@color/white" />
+    </LinearLayout>
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择需要为您服务的客服"
+        android:textColor="@color/inputblack" 
+        android:textSize="16sp"/>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/TextView_genghuan_guishu001"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更换归属"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/xiayibu_mini"
+        android:textColor="@color/inputblack" 
+        android:textSize="12sp"/>
+</RelativeLayout>
+ <LinearLayout 
+     android:layout_marginTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/white">
+    <TextView 
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:id="@+id/TextView_sales_chat001"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/kefu_nan"
+        android:text="售前顾问"
+        android:textColor="@color/inputblack"/>
+     <TextView 
+         android:gravity="center_horizontal"
+         android:layout_weight="1"
+         android:id="@+id/TextView_sales_chat002"
+         android:drawablePadding="10dp"
+         android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:drawableTop="@drawable/kefu_nv"
+        android:text="售后顾问"
+        android:textColor="@color/inputblack"/>
+     
+    </LinearLayout>
+    
+
+</LinearLayout>

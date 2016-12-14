@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    xmlns:app="http://schemas.android.com/apk/res/com.bcwcar.android.bencar">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scollivew"
+        android:layout_above="@+id/textbuttonfuji"
+        android:scrollbars="none">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_bg"
+            android:orientation="vertical">
+     <RelativeLayout
+               android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:padding="10dp">
+            
+               <TextView
+                   android:id="@+id/TextView_today_is_today_data"
+                   android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="2016年00月00日  星期一"
+                   android:textColor="@color/inputblack"
+                   android:textSize="14sp"
+                   />
+               <TextView 
+                   android:id="@+id/TextView_today_date_queding001"
+                   android:layout_centerVertical="true"
+                   android:padding="5dp"
+                   android:paddingLeft="10dp"
+                   android:paddingRight="10dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="今天"
+                   android:textColor="@color/mainblue"
+                   android:background="@drawable/yuanjiao_biankuang_lankuang_touming20"
+                   android:textSize="14sp"
+                   />
+            </RelativeLayout>       
+            
+            
+            
+            
+<com.bcwcar.android.bencar.widget.CustomCalendar
+	    android:id="@+id/calendar"
+	      android:background="@color/white"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"/>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/goodsname"
+        android:text="双人洗车服务"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/singleprice"
+        android:layout_alignParentRight="true"
+        android:text=""/>
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="1dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/inputblack"
+        android:id="@+id/goodsname1"
+        android:text="数量"/>
+     <com.bcwcar.android.bencar.widget.AmountView 
+    android:layout_height="30dp" 
+    android:layout_width="120dp" 
+     
+     
+     
+     
+     
+     android:layout_alignParentRight="true"
+     android:id="@+id/amount_view"></com.bcwcar.android.bencar.widget.AmountView>    
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="1dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+      
+        android:text="小计"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/totoalprice"
+        android:layout_alignParentRight="true"
+        android:text=""/>
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+      
+        android:text="选择预约时间"/>
+     <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/fill_in_order_time_time001"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:gravity="center_vertical|right"
+        android:drawableRight="@drawable/xiayibu"/>
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/youhuiquanrele"
+    android:layout_marginTop="5dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+      
+        android:text="选择优惠券"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/youhuiquan"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:drawableRight="@drawable/xiayibu"/>
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="1dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+      
+        android:text="订单总价"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:id="@+id/zongjia"
+        android:layout_alignParentRight="true"
+        android:text=""
+        />
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:padding="15dp"
+    
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+         android:layout_centerVertical="true"
+        android:text="联系人"/>
+     <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/contact"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        android:hint="请输入姓名"
+        />
+</RelativeLayout>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="1dp"
+    android:background="@color/white">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+      
+        android:text="手机号码"/>
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputblack"
+        android:id="@+id/cellphone"
+        android:layout_alignParentRight="true"
+        android:text=""
+        />
+</RelativeLayout>
+<RelativeLayout
+                android:padding="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <TextView
+                    
+                    android:id="@+id/TextView_dingdanye_fapiao001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="开发票"
+                    android:textColor="#505050"
+                    />
+
+                <com.bcwcar.android.bencar.widget.SlideSwitch
+                    android:layout_centerVertical="true"
+                    android:id="@+id/SlideSwitch_dingdanye_fapiao_button001"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                     />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="1dp"
+                android:id="@+id/RelativeLayout_fapiao_taitou001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                    <EditText
+                        android:padding="20dp"
+                        android:id="@+id/EditText_fapiao_taitou001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_corner_solid"
+                        android:gravity="left|center_vertical"
+                        android:hint="请输入发票抬头"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/EditText_fapiao_taitou001"
+                        android:layout_margin="10dp"
+                        android:text="购券优惠部分和折扣部分不予开票。" />
+                </LinearLayout>
+            </RelativeLayout>
+            
+     </LinearLayout>
+</ScrollView>
+<!-- 保养时段 -->
+    <RelativeLayout
+        android:padding="15dp"
+        android:id="@+id/RelativeLayout_time_time_show001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/yuanjiao_biankuang_bai"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_time_time_quxiao001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="取消"
+                    android:textColor="#555555" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="选择保养时段"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/TextView_time_time_queren001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="确定"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+
+            <NumberPicker
+                android:id="@+id/NumberPicker_time_time_xuanze001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+     <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textbuttonfuji"
+   
+    android:layout_alignParentBottom="true"
+    
+   
+    android:background="@color/white"
+    android:padding="15dp">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/textbutton"
+        android:gravity="center"
+        android:text="立即支付"
+        android:textColor="@color/white"
+        android:background="@drawable/yuanjiao_button_lan"/>
+</LinearLayout>	
+</RelativeLayout>

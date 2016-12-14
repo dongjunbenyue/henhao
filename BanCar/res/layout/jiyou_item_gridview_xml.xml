@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:id="@+id/RelativeLayout_jiyou_show001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@drawable/yuanjiao_biankuang_hui_bai_soid">
+<LinearLayout 
+    android:paddingTop="10dp"
+    android:id="@+id/LinearLayout_test001"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/textView_tst_remen_tag001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" 
+        android:textSize="12sp"
+        android:textColor="@color/red"
+        android:background="@drawable/icon_kuangjia"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥" 
+        android:textColor="@color/red"/>
+    <TextView
+        android:id="@+id/textView_jiyou_price_item001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="59" 
+        android:textColor="@color/red"/>
+</LinearLayout>
+<LinearLayout 
+    android:layout_below="@+id/LinearLayout_test001"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/textView_jiyou_item_miaosu001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="原厂中石化5W-30" 
+        android:textSize="12sp"
+        android:maxLines="2"
+        android:textColor="@color/inputblack"/>
+</LinearLayout>
+
+<ImageView 
+    android:id="@+id/ImageView_xuangzhong_state001"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:src="@drawable/sanjiao"
+   android:visibility="gone"/>
+
+</RelativeLayout>
+</LinearLayout>

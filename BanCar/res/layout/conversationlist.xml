@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+         android:id="@+id/RelativeLayout_main_news_system_news001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<RelativeLayout
+    android:id="@+id/RelativeLayout_news_system_001"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_imageView_news_system_001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView_news_list001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/icon_xitongxiaoxi" 
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/TextView_weidu_news001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView_news_list001"
+                android:background="@drawable/yuan_red"
+                android:textColor="@color/white"
+                android:textSize="10sp" 
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <TextView
+            
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/RelativeLayout_imageView_news_system_001"
+            android:paddingLeft="10dp"
+            android:text="@string/text_custmer_system" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView_today_date001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2016-06-11" />
+
+    </RelativeLayout>
+    
+<!--  -->
+<RelativeLayout
+    android:id="@+id/RelativeLayout_news_shop_001"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_imageView_news_system_002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView_news_list002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/icon_xiaoxi_shangjia" 
+                />
+
+            <TextView
+                 android:visibility="gone"
+                android:id="@+id/TextView_weidu_news002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView_news_list002"
+                android:background="@drawable/yuan_red"
+                android:textColor="@color/white"
+                android:textSize="10sp" 
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/RelativeLayout_imageView_news_system_002"
+            android:paddingLeft="10dp"
+            android:text="@string/text_news_shangjia" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView_today_date002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2016-06-11" />
+
+    </RelativeLayout>
+    <!--  -->
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_news_quan_001"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_imageView_news_system_003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageView_news_list003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/icon_xiaoxi_quan" 
+                />
+
+            <TextView
+                android:id="@+id/TextView_weidu_news003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/imageView_news_list003"
+                android:background="@drawable/yuan_red"
+                android:textColor="@color/white"
+                android:textSize="10sp" 
+                android:visibility="gone"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/RelativeLayout_imageView_news_system_003"
+            android:paddingLeft="10dp"
+            android:text="@string/text_news_quan" />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView_today_date003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2016-06-11" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+    <fragment
+        android:layout_below="@+id/RelativeLayout_main_news_system_news001"
+        android:id="@+id/conversationlist"
+        android:name="io.rong.imkit.fragment.ConversationListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

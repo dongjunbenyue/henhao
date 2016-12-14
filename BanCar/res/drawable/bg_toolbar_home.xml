@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 工具栏上的首页按钮背景 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/homelan"
+        android:state_checked="true"
+        android:state_enabled="true">
+    </item>
+    <item android:drawable="@drawable/homehui">
+    </item>
+
+</selector>

@@ -1,0 +1,228 @@
+<!-- 4S店加盟页面 body部分 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_bg"
+     android:focusableInTouchMode="true"
+     android:focusable="true"
+    
+    >
+
+  
+	   <LinearLayout android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentTop="true"
+	       android:orientation="vertical">
+	       <com.facebook.drawee.view.SimpleDraweeView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         fresco:viewAspectRatio="2.6"
+        fresco:actualImageScaleType="focusCrop"
+        android:background="@drawable/image_huodong"/>
+	       
+       <com.bcwcar.android.bencar.widget.PullDoorView 
+          
+           android:layout_width="match_parent"
+           android:id="@+id/tuituitui"
+           android:gravity="bottom"
+           android:layout_height="match_parent">    
+    <LinearLayout
+          
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+         >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/white">
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_shu"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="联系信息"
+                android:textColor="#4a90e2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/shop4s_join_city"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+           android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="入驻城市"
+                android:textColor="@color/black" />
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:id="@+id/cityname"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                 
+                android:gravity="center_vertical|right"
+                android:hint="请选择城市" 
+                android:textColorHint="@color/hintblack"
+                android:maxLength="10"
+                android:singleLine="true"
+                  android:textColor="@color/inputblack"
+                 android:textSize="@dimen/common_textsize_small"
+                android:drawableRight="@drawable/xiayibu"
+                android:drawablePadding="10dp"/>
+        </LinearLayout>
+        
+
+       
+
+        <LinearLayout
+            android:id="@+id/shop4s_join_brand"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="入驻品牌"
+                android:textColor="@color/black" />
+
+             <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:id="@+id/brandname"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:hint="@string/shop4s_join_brand_hint"
+                 android:textColorHint="@color/hintblack"
+                android:maxLength="5"
+                  android:textColor="@color/inputblack"
+                 android:textSize="@dimen/common_textsize_small"
+                android:singleLine="true"
+android:drawableRight="@drawable/xiayibu"
+android:drawablePadding="10dp"/>
+        </LinearLayout>
+ <LinearLayout
+            android:id="@+id/shop4s_join_shop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+           android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人姓名"
+                android:textColor="@color/black" />
+
+            <EditText
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:id="@+id/contactname"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:hint="@string/shop4s_join_shop_hint" 
+                 android:textColorHint="@color/hintblack"
+                 android:textColor="@color/inputblack"
+                 android:textSize="@dimen/common_textsize_small"
+                android:maxLength="5"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout
+          
+            android:id="@+id/shop4s_join_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:background="@color/white" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:id="@+id/contactPhone"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:hint="@string/shop4s_join_address_hint" 
+                 android:textColorHint="@color/hintblack"
+                android:maxLength="11"
+                  android:textColor="@color/inputblack"
+                 android:textSize="@dimen/common_textsize_small"
+                android:singleLine="true"
+                android:inputType="number"
+                android:digits="@string/register_name_phone"/>
+        </LinearLayout>
+ 
+    </LinearLayout>
+     
+   </com.bcwcar.android.bencar.widget.PullDoorView>
+
+   </LinearLayout>
+   <RelativeLayout android:layout_width="match_parent"
+       android:layout_alignParentBottom="true"
+       android:background="@color/white"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp"
+       android:layout_height="wrap_content">
+   <Button
+        android:id="@+id/shop4s_join_bottom"
+        android:background="@drawable/yuanjiao_button_lan"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="15dp"
+         android:layout_height="wrap_content"
+            
+        android:onClick="onViewClick"
+        
+        android:text="@string/shop4s_join_application_to_join" 
+        />
+   </RelativeLayout>
+    <ImageView 
+        android:id="@+id/chenggong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClick"
+        android:clickable="true"
+        android:src="@drawable/chengg2x"
+        android:visibility="gone"/>
+
+</RelativeLayout>

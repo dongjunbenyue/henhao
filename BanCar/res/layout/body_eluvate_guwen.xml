@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+     >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <LinearLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:orientation="horizontal">
+  <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/service_network_logo"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        fresco:actualImageScaleType="focusCrop"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        
+        fresco:roundAsCircle="true" 
+        android:background="@drawable/moren"
+        />
+ <LinearLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     
+     android:layout_marginTop="20dp"
+     android:orientation="vertical">
+     <LinearLayout android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="顾问: "
+             android:textColor="#908E8F"
+             android:textSize="16sp"/>
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/EmpNametext"
+             android:layout_marginLeft="5dp"
+             android:text="顾问:"
+             android:textColor="#908E8F"
+             android:textSize="16sp"/>
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="竭诚为您服务"
+             android:textColor="#a9a9a9"
+             android:layout_marginLeft="5dp"
+             android:textSize="14sp"/>
+         
+     </LinearLayout>
+     <LinearLayout android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:orientation="horizontal">
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#CFCFCF"
+           android:textSize="12sp"
+           android:text="客户评分"/> 
+       <TextView  android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="18sp"
+           android:id="@+id/kefupinfen"
+           android:layout_marginLeft="5dp"
+           android:text="5.0"
+           android:drawablePadding="3dp"
+           android:textColor="#DE6D62"
+           android:drawableRight="@drawable/icon_huang_xingxing"/>     
+     </LinearLayout>
+     <View  android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#F6F6F6"/>
+     <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="您的评价，让我们做的更好！"
+               android:textSize="14sp"
+               android:layout_marginTop="25dp"
+               android:textColor="@color/black"/>
+     <RatingBar
+                android:id="@+id/my_order_evaluate_OrderScore"
+                style="@style/roomRatingBarbig1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+                android:rating="5"
+                android:stepSize="1.0" />
+ </LinearLayout>
+ </LinearLayout>   
+ <LinearLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="40dp"
+     android:layout_marginTop="30dp"
+     android:orientation="vertical"
+     android:layout_marginRight="20dp">
+  <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+      <ImageView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/biaoqian"/>
+     <View android:layout_width="match_parent"
+         android:layout_marginLeft="2dp"
+         android:layout_height="1dp"
+         android:background="#F1F1F1"/>  
+  </LinearLayout>
+    
+     <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:gravity="center"
+         android:orientation="horizontal">
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+              android:id="@+id/buttonpin1"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:button="@null"
+              android:textColor="#c9c9c9"
+              android:textSize="14sp"
+              android:text="解答很细心"/>  
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"               
+              android:button="@null"
+              android:id="@+id/buttonpin2"
+              android:layout_marginLeft="5dp"
+              android:textColor="#c9c9c9"
+              android:textSize="14sp"
+              android:text="及时给予反馈"/>
+     <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+               android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+               android:button="@null"
+              android:id="@+id/buttonpin3"
+              android:layout_marginLeft="5dp"
+              android:textColor="#c9c9c9"
+              android:textSize="14sp"
+              android:text="很有耐心"/>              
+     </LinearLayout>
+      <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:gravity="center"
+         android:orientation="horizontal">
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+               android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:textColor="#c9c9c9"
+               android:button="@null"
+              android:id="@+id/buttonpin4"
+              android:textSize="14sp"
+              android:text="服务很到位"/>  
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+               android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:id="@+id/buttonpin5"
+               android:button="@null"
+              android:layout_marginLeft="5dp"
+              android:textColor="#c9c9c9"
+              android:textSize="14sp"
+              android:text="幽默"/>
+     <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/pingjiadianji"
+               android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:id="@+id/buttonpin6"
+              android:button="@null"
+              android:layout_marginLeft="5dp"
+              android:textColor="#c9c9c9"
+              android:textSize="14sp"
+              android:text="可爱"/>              
+     </LinearLayout>
+ </LinearLayout>
+ </LinearLayout>
+     <Button
+	    android:id="@+id/setting_logout"
+	    android:onClick="onViewClick"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_marginTop="5dp"
+	    android:background="@drawable/yuanjiao_button_lan"
+	    android:text="发布评价"
+	    android:textColor="@color/white"/>
+</RelativeLayout>

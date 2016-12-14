@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<!-- 选择车型型号的ListView使用的行布局文件 -->
+<LinearLayout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    
+    android:orientation="vertical" >
+<TextView
+    android:padding="10dp"
+        android:id="@+id/select_brand_zimu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_bg"
+        android:gravity="left"
+        android:text="A" />
+<LinearLayout
+    style="@style/BaseLineView"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/select_brand_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:roundAsCircle="false" />
+
+    <TextView
+        android:id="@+id/select_brand_name"
+        style="@style/BaseTextView"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:text="奥迪" />
+  
+   </LinearLayout>
+</LinearLayout>

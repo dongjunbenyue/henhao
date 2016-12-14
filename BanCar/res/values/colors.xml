@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  背景颜色 -->
+  <color name="common_bg">#F0F2F5</color>
+  <color name="white">#FFFFFF</color>
+  <color name="white90">#90FFFFFF</color>
+  <color name="b9">#9b9b9b</color>
+  <color name="black">#000000</color>
+  <!-- 提示输入黑 -->
+  <color name="hintblack">#9B9B9B</color>
+  <color name="hui">#e1e1e1</color>
+  <!-- 输入黑 -->
+  <color name="inputblack">#4A4A4A</color>
+  <!-- 主题蓝 -->
+  <color name="mainblue">#4A90E2</color>
+  <color name="mainblue002">#95BAE4</color>
+  <!--  字体红 -->
+  <color name="red">#DB4F2D</color>
+  <color name="transparent">#00000000</color>
+  <color name="transparent55">#55000000</color>
+  <color name="transparent20">#20000000</color>
+  <!-- s扫描 -->
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="result_view">#b0000000</color>
+  <color name="possible_result_points">#c0ffff00</color>  
+  <!--自定义加减控件 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="divider">#ffd2d2d2</color>
+  
+</resources>

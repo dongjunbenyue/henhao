@@ -1,0 +1,90 @@
+<!-- 关于我们页面 body部分 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+        android:id="@+id/view_test001"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+	<TextView
+	    android:textColor="@color/inputblack"
+	    android:text="@string/select_city_location"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"/>
+		<TextView 
+		    android:background="@color/white"
+	    android:id="@+id/TextView_location_data001"
+	    android:textSize="10sp"
+	    android:padding="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="刷新"
+	    android:textColor="@color/hintblack"
+	    android:singleLine="true"
+	    android:visibility="gone"
+	    />
+
+<RelativeLayout 
+    android:layout_marginTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+	
+	<TextView
+	    android:layout_centerVertical="true"
+	    android:drawableLeft="@drawable/icon_cursor"
+	    android:id="@+id/select_city_location"
+	    android:textSize="16sp"
+	    android:textColor="@color/inputblack"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:drawablePadding="10dp"
+	    android:padding="10dp"/>
+	
+	<TextView 
+	    android:id="@+id/TextView_location_refresh001"
+	    android:textSize="12sp"
+	    android:drawableRight="@drawable/refresh"
+	    android:drawablePadding="10dp"
+	    android:padding="10dp"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="刷新"
+	    android:textColor="@color/hintblack"/>
+	</RelativeLayout>	
+	</LinearLayout>
+	
+    
+    
+    
+	 <LinearLayout 
+	     android:layout_marginTop="1dp"
+      android:layout_below="@+id/view_test001"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+	    android:textColor="@color/inputblack"
+	    android:text="@string/select_city_to_next"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	  android:padding="10dp"/>
+
+
+ <ListView
+            android:id="@+id/city_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:background="@color/common_bg"
+            android:scrollbars="none" />
+ </LinearLayout>
+</RelativeLayout>

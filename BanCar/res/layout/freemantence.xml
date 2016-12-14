@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_yaoqinghaoyoushouye"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/huodong"
+                    android:textColor="@color/mainblue"
+                    android:textSize="@dimen/common_textsize_small" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="邀请好友来进行犇车折扣养车，即可"
+                            android:textColor="@color/inputblack"
+                            android:textSize="@dimen/common_textsize_tiny" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="与好友一起参与“"
+                                android:textColor="@color/inputblack"
+                                android:textSize="@dimen/common_textsize_tiny" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="邀请好友夺好礼"
+                                android:textColor="@color/mainblue"
+                                android:textSize="@dimen/common_textsize_tiny" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="”活"
+                                android:textColor="@color/inputblack"
+                                android:textSize="@dimen/common_textsize_tiny" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="动，排名每周重置，排名前三者我们"
+                            android:textColor="@color/inputblack"
+                            android:textSize="@dimen/common_textsize_tiny" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="会通知您，并发放好礼!"
+                            android:textColor="@color/inputblack"
+                            android:textSize="@dimen/common_textsize_tiny" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/icon_haoyou" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp" >
+
+                <TextView
+                    android:id="@+id/gotoshareinternt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/yuanjiao_button_lan"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="线上邀请"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_textsize_medium" />
+
+                <TextView
+                    android:id="@+id/facetoface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yuanjiao_button_white"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="线下邀请"
+                    android:textColor="@color/mainblue"
+                    android:textSize="@dimen/common_textsize_medium" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/weilingjiangline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/icon_liwu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:text="本周热门好礼："
+                        android:textColor="@color/inputblack"
+                        android:textSize="@dimen/common_textsize_medium" />
+
+                    <TextView
+                        android:id="@+id/TextView_presents_name001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="犇车牌农家土鸡蛋"
+                        android:textColor="@color/inputblack"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/SimpleDraweeView_presents_image001"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    fresco:failureImage="@drawable/egg"
+                    fresco:failureImageScaleType="focusCrop" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lingjiangline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/icon_liwu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="犇车牌农家土鸡蛋"
+                        android:textColor="@color/inputblack"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp" >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/egg" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_lingjiang" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:paddingLeft="15dp"
+                    android:text="邀请最高还有额外奖励哦"
+                    android:textColor="@color/inputblack"
+                    android:textSize="@dimen/common_textsize_small" />
+
+                <TextView
+                    android:id="@+id/gotoranklist"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="right"
+                    android:paddingRight="15dp"
+                    android:text="查看排行榜"
+                    android:textColor="@color/inputblack"
+                    android:textSize="@dimen/common_textsize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="您已成功邀请好友"
+                        android:textColor="@color/inputblack"
+                        android:textSize="@dimen/common_textsize_tiny" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgfriend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/icon_woshou" />
+
+                        <TextView
+                            android:id="@+id/textrank"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imgfriend"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/imgfriend"
+                            android:text="2"
+                            android:textColor="@color/mainblue"
+                            android:textSize="@dimen/common_textsize_big0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/textrank"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/textrank"
+                            android:text="名"
+                            android:textColor="@color/inputblack"
+                            android:textSize="@dimen/common_textsize_tiny" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="目前排名高于您的有"
+                        android:textColor="@color/inputblack"
+                        android:textSize="@dimen/common_textsize_tiny" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgpeople"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/icon_paiming" />
+
+                        <TextView
+                            android:id="@+id/textpeople"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imgpeople"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/imgpeople"
+                            android:text="2"
+                            android:textColor="@color/mainblue"
+                            android:textSize="@dimen/common_textsize_big0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/textpeople"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/textpeople"
+                            android:text="名"
+                            android:textColor="@color/inputblack"
+                            android:textSize="@dimen/common_textsize_tiny" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ecodline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ecodeimgview1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="扫一扫上面二维码图案，邀请好友注册犇车网。" />
+    </LinearLayout>
+
+</RelativeLayout>

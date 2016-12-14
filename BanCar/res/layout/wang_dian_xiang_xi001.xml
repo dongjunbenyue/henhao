@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LinearLayout_wangdian_list002"
+        android:scrollbars="none" 
+       >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <!-- 头部信息 -->
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    >
+    <ImageView 
+        android:id="@+id/ImageView_muhu001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:id="@+id/LinearLayout_wangdian_list001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/transparent55"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/wangdian_logo001"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1" />
+            
+            <TextView
+                android:id="@+id/TextView_shop_show_number001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/wangdian_logo001"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/fang_blue"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/TextView_shop_info_shopname001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar_shopstar_info001"
+                style="@style/MyRatingBar001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:isIndicator="true"
+                android:rating="3" />
+
+            <TextView
+                android:id="@+id/TextView_shopadress001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:singleLine="true"
+                android:text="河西汽车城"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 营业时间 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_timer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="营业时间：8:00-22:00"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!-- 定位 -->
+
+            <LinearLayout
+                android:id="@+id/dingwei_daohang0011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" 
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_cursor" />
+
+                    <TextView
+                        android:id="@+id/Textview_wangdian_xiangxi_adrress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="长沙市岳麓区000000"
+                        android:textColor="@color/inputblack" 
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/xiayibu_mini" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 商家电话 -->
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_boda_dianhua001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon_dianhua_hui" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="联系商家："
+                        android:textColor="@color/inputblack"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/Textview_wangdian_xiangxi_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="155123456789"
+                        android:textColor="@color/inputblack"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon_dianhua" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 服务厂商 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" 
+                android:visibility="gone">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="服务厂商："
+                    android:textColor="@color/inputblack" />
+
+                <TextView
+                    android:textSize="14sp"
+                    android:id="@+id/TextView_changshang_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="大众。。。。。。"
+                    android:textColor="@color/inputblack" />
+            </LinearLayout>
+            <!-- 服务车型 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" 
+                android:visibility="gone">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="服务车型："
+                    android:textColor="@color/inputblack" />
+
+                <TextView
+                    android:textSize="14sp"
+                     android:id="@+id/TextView_changshang_car_brand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="大众。。。。。。"
+                    android:textColor="@color/inputblack" />
+            </LinearLayout>
+            <!-- 过期退=随时退 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:background="@color/common_bg"
+                android:drawablePadding="@dimen/common_view_vertical_login"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <CheckBox
+                        android:drawablePadding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/icon_dui_lanse"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:text="@string/shop4s_info_out_of_date"
+                        android:textColor="@color/mainblue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <CheckBox
+                        android:drawablePadding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/icon_dui_lanse"
+                        android:text="提前预约"
+                        android:textColor="@color/mainblue" />
+                </LinearLayout>
+            </LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="其他服务（"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/TextView_qita_number001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="）"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/ListView_shop_quan001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:scrollbars="none" />
+             <LinearLayout 
+        android:id="@+id/LinearLayout_more_project001"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+                <LinearLayout 
+        android:id="@+id/LinearLayout_more_project_text_hanzi001"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:textColor="@color/hintblack"
+        />
+    <TextView 
+        android:id="@+id/TextView_num_text001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一"
+        android:textColor="@color/hintblack"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项服务"
+        android:textColor="@color/hintblack"
+        />
+    </LinearLayout>
+    <ImageView 
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ImageView_up_or_down001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/down"/>
+    </LinearLayout>
+            
+            <!-- 车主点评 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="车主点评（"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/TextView_shop_dianping_number001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="）"
+                    android:textColor="@color/inputblack"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+            <ListView
+                android:background="@color/white"
+                android:id="@+id/ListView_shop_dianping001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:scrollbars="none" />
+            <TextView 
+                android:background="@color/white"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="查看更多"
+                android:textSize="16sp"
+                android:textColor="@color/inputblack"
+                android:id="@+id/TextView_loading_more_pinglun001"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_wangdian_list002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_bg" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/wangdian_xiangxi_yuding001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yuanjiao_button_lan"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/text_shop_wangdian_yes"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

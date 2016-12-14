@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" 
+    android:gravity="center_vertical">
+  <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1">
+    <TextView
+        android:id="@+id/zhangshi_item001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="机油"
+        android:paddingLeft="10dp" />
+     <TextView
+        android:id="@+id/zhangshi_item002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e1e1e1"
+        android:text="原厂" 
+        android:paddingLeft="10dp"/>
+     </LinearLayout>
+     <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="5">
+     <TextView android:id="@+id/itemprice"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/mainblue"
+         android:text="1231"/>
+</LinearLayout>
+</LinearLayout>

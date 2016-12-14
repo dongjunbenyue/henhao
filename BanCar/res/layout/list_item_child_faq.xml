@@ -1,0 +1,34 @@
+<!-- faq的ExpandableListView使用的child行布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="15dp" 
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/icon_xingxing" 
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/list_item_faq_child_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="456" />
+    </LinearLayout>
+
+   
+
+</LinearLayout>

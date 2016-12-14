@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="5dp">
+    <LinearLayout 
+        android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="罚款金额：¥" />
+     <TextView
+         android:id="@+id/TextView_weizhang_listview_item001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00" />
+</LinearLayout>
+ <LinearLayout 
+     android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="违章扣分：" />
+     <TextView
+         android:id="@+id/TextView_weizhang_listview_item002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+</LinearLayout>
+</LinearLayout>
+    
+       
+       <LinearLayout 
+           android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间：" />
+     <TextView
+         android:id="@+id/TextView_weizhang_listview_item003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-06-23 18:24:00" />
+</LinearLayout> 
+ 
+       <LinearLayout 
+           android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地点：" />
+     <TextView
+         android:id="@+id/TextView_weizhang_listview_item004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="长沙市岳麓区" />
+</LinearLayout> 
+   <LinearLayout 
+           android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="违章内容：" />
+     <TextView
+         android:id="@+id/TextView_weizhang_listview_item005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="违反规定停放、临时停车且驾驶人不在现场或驾驶人虽在现场拒绝立即驶离，妨碍其他车辆、行人通行的" />
+</LinearLayout> 
+       
+       
+       
+</LinearLayout>

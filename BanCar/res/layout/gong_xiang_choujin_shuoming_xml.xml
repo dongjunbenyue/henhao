@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="1.什么是共享酬金？" />
+     <TextView
+         android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="共享酬金是“犇车网”返利给客户的金额，是共享价值时代的体现。" />
+      <TextView
+           android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="2.怎么获得共享酬金？" />
+       <TextView
+            android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="邀请好友注册成功，您便可以获得好友保养的共享酬金的最高10%。" />
+        <TextView
+             android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="3.共享酬金的怎么划分？" />
+         <TextView
+              android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保养完成后，邀请人获得好友保养的共享酬金的最高10%，被邀请人获得共享酬金的90%；直接从APP市场下载，而无邀请人，保养完成后车主可获得共享酬金的100%。" />
+          <TextView
+               android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="4.共享酬金什么时候可以返回？" />
+           <TextView
+                android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在4S店完成保养，提车后；我们将在15个工作日内将金额返回到“我的金额”。" />
+            <TextView
+                 android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+         android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="5.共享酬金可以提现吗？" />
+             <TextView
+                  android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可以，您可在“我的金额”中提款，7个工作日内到账（银行转账手续费需客户承担）。" /> 
+          <TextView
+                 android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+         android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="6.犇车网将扣除共享酬金的平台技术服务费（如需开发票请联系犇车网客服400-018-5025）。" />
+        <TextView
+             android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="7.本说明最终解释权归犇车网所有。" />
+        
+        </LinearLayout> 
+</ScrollView>
+</LinearLayout>

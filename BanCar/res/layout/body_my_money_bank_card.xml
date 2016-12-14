@@ -1,0 +1,47 @@
+<!-- 我的金额|银行卡页面 body部分 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+	android:background="@color/common_bg">
+	 <TextView
+	     android:layout_marginTop="1dp"
+        android:padding="20dp"
+        android:id="@+id/TextView_bank_list_none001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="暂未绑定银行卡" 
+        android:background="#ffffff"
+        android:textColor="#757575"
+        android:visibility="gone"/>
+	 <LinearLayout
+	     android:layout_marginTop="1dp"
+	     android:layout_below="@+id/TextView_bank_list_none001"
+          android:orientation="vertical"
+	      android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	    android:layout_above="@+id/my_money_bank_card_add_card"
+	     >
+ 
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+       android:id="@+id/SwipeMenuListView_bank_card001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:dividerHeight="5dp"
+        android:divider="@color/transparent"
+        android:scrollbars="none"/>
+   </LinearLayout>
+    <TextView
+        android:layout_marginTop="1dp"
+        android:id="@+id/my_money_bank_card_add_card"
+        android:clickable="true"
+        android:onClick="onViewClick"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+    	android:text="添加银行卡"/>
+</RelativeLayout>

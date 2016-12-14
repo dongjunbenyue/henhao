@@ -1,0 +1,210 @@
+<!-- 我的订单|已付款页，待付款，待评价，行布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@color/common_bg"
+	
+	>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="@drawable/yuanjiao"
+	    >
+	   <!--  <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="15dp"
+	        android:paddingRight="15dp"
+	        android:background="@color/white">
+	     <TextView
+	            android:id="@+id/list_item_my_order_biz_info"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+    			android:layout_height="wrap_content"
+    			android:gravity="center_vertical|left"
+    			android:textColor="@color/inputblack"
+    			android:text="2015-10-24 10:00(保养)"
+    			android:textSize="14sp"
+    			
+    			
+    			/> 
+    	 <TextView
+	            android:id="@+id/list_item_my_order_order_status"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+    			android:layout_height="wrap_content"
+    			android:textSize="14dp"
+    			android:gravity="center_vertical|right"
+    			android:textColor="@color/mainblue"
+    			
+    			/>
+	    </LinearLayout> -->
+	    <RelativeLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	       
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="15dp"
+	        android:paddingRight="15dp"
+	        android:background="@color/white">
+	       <ImageView android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:id="@+id/fuwutype"
+	           android:src="@drawable/dingdan_qichebaoyang"/>
+	     <TextView android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:id="@+id/fuwutype1"
+	         android:text="汽车美容"
+	         android:layout_marginLeft="15dp"
+	         android:layout_toRightOf="@+id/fuwutype"
+	         />
+    	 <TextView
+	            android:id="@+id/list_item_my_order_order_status"
+	            android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:textSize="14dp"
+    			android:layout_centerVertical="true"
+    			android:layout_alignParentRight="true"
+    			android:text="566"
+    			android:gravity="center_vertical|right"
+    			android:textColor="@color/mainblue"
+    			
+    			/>
+	    </RelativeLayout>
+	    <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="1dp"
+	        android:padding="15dp"
+	        android:background="@color/white">
+    	 <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	       
+	       
+	       >
+	      <TextView
+	            android:id="@+id/list_item_my_order_shop_name"
+	            android:layout_width="0dp"
+	            android:layout_weight="5"
+    			android:layout_height="wrap_content"
+    			android:gravity="center_vertical|left"
+    			android:text="沪南汽修有限公司成了啦啦啦啦"
+    			android:maxEms="10"
+    			android:textColor="#000000"
+    			android:singleLine="true"
+    			android:ellipsize="end"
+    			android:textSize="14sp"
+    			/>
+	        <TextView
+	            android:id="@+id/list_item_my_order_order_amount"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+    			android:layout_height="wrap_content"
+    			android:gravity="center_vertical|right"
+    			android:textColor="@color/red"
+    			android:text="¥564"
+    			android:textSize="14sp"
+    			/>
+	        </LinearLayout>
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginBottom="10dp"
+	            android:textSize="13sp"
+	            android:gravity="center_vertical|left"
+	            android:textColor="@color/hintblack"
+	            android:id="@+id/carname"/>
+	         <TextView
+	            android:id="@+id/list_item_my_order_car_info"
+	            android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="center_vertical|left"
+    			android:text="粤A15152(5000KM)"
+    			android:textSize="13dp"
+    			android:textColor="@color/hintblack"
+    			/>
+	    </LinearLayout>
+	    <RelativeLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="@color/white"
+    	android:gravity="center_vertical|right"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp"
+    	android:paddingLeft="15dp"
+    	android:paddingRight="15dp"
+    	android:layout_marginTop="1dp">
+	   
+	   <LinearLayout
+	    android:id="@+id/list_item_my_order_layout_add_project"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:clickable="true"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:visibility="gone"
+    	android:layout_centerVertical="true"
+    	
+    	>
+	    <ImageView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/icon_jiahao"/>
+	  
+        <TextView
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:textColor="@color/mainblue"
+   			android:textSize="14sp"
+   			android:text="添加项目"
+   			android:layout_marginLeft="5dp"
+   			/>
+        </LinearLayout>
+	    <TextView
+	        android:visibility="invisible"
+	        android:clickable="true"
+            android:id="@+id/list_item_my_order_btn_left"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:paddingTop="10dp"
+   			android:paddingBottom="10dp"
+   			android:paddingLeft="10dp"
+   			android:paddingRight="10dp"
+            android:background="@drawable/yuanjiao_biankuang_baikuang_cancel"
+   			android:text="取消"
+   			android:textSize="14sp"
+   			android:layout_toLeftOf="@+id/list_item_my_order_btn_right"
+   			android:textColor="@color/hintblack"
+   			android:layout_marginRight="5dp"
+   			/>
+	    
+        <TextView
+            android:visibility="invisible"
+            android:clickable="true"
+            android:id="@+id/list_item_my_order_btn_right"
+            android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:textSize="14sp"
+   			
+   			android:layout_alignParentRight="true"
+   			android:paddingTop="10dp"
+   			android:paddingBottom="10dp"
+   			android:paddingLeft="10dp"
+   			android:paddingRight="10dp"
+   			android:text="tuikuan"
+            android:background="@drawable/yuanjiao_biankuang_confirm"
+            android:textColor="@color/mainblue"
+   			
+   			/>
+	</RelativeLayout>
+	
+	
+	</LinearLayout>
+</LinearLayout>

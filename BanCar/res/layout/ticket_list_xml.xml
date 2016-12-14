@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/TextView_no_ticket001"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:text="暂无可用的抵用券"
+        android:textColor="@color/hintblack"
+        android:textSize="18sp"
+        android:background="@drawable/yuanjiao_biankuang_hui"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+<ListView 
+    android:id="@+id/ListView_ticket_listview001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</LinearLayout>

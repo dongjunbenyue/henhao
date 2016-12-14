@@ -1,0 +1,2164 @@
+﻿{
+    "Data": [
+        {
+            "A": [
+                {
+                    "CityId": "ac0af3ce-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿拉善盟",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac0af45a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鞍山市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac0afea1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "安庆市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac0b062b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "安阳市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac0b1a58-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿坝藏族羌族自治州",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac0b1bac-9252-11e5-9246-f079592f54ca",
+                    "CityName": "安顺市",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac180e80-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿里地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac18100a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "安康市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac1815cc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿克苏地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac18174e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿勒泰地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac1817a0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阿拉尔市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                },
+                {
+                    "CityId": "ac18189a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "澳门特别行政区",
+                    "ProvinceId": "2f847d78-9251-11e5-9246-f079592f54ca",
+                    "First": "A"
+                }
+            ]
+        },
+        {
+            "B": [
+                {
+                    "CityId": "ac0ae318-9252-11e5-9246-f079592f54ca",
+                    "CityName": "北京市",
+                    "ProvinceId": "2f8474a6-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0ae7b7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "保定市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0aeb11-9252-11e5-9246-f079592f54ca",
+                    "CityName": "包头市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0af301-9252-11e5-9246-f079592f54ca",
+                    "CityName": "巴彦淖尔市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0af4ac-9252-11e5-9246-f079592f54ca",
+                    "CityName": "本溪市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0af739-9252-11e5-9246-f079592f54ca",
+                    "CityName": "白山市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0af78b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "白城市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0afde9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "蚌埠市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b054d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "滨州市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b1594-9252-11e5-9246-f079592f54ca",
+                    "CityName": "北海市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b1659-9252-11e5-9246-f079592f54ca",
+                    "CityName": "百色市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b1a0a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "巴中市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b1c55-9252-11e5-9246-f079592f54ca",
+                    "CityName": "毕节地区",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac0b1d5f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "保山市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac180f20-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宝鸡市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac1810cf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "白银市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac181569-9252-11e5-9246-f079592f54ca",
+                    "CityName": "博尔塔拉蒙古自治州",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                },
+                {
+                    "CityId": "ac181593-9252-11e5-9246-f079592f54ca",
+                    "CityName": "巴音郭楞蒙古自治州",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "B"
+                }
+            ]
+        },
+        {
+            "C": [
+                {
+                    "CityId": "ac0ae85f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "承德市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0ae88c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "沧州市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0ae98b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "长治市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0af1a8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "赤峰市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0af5f4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "朝阳市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0af646-9252-11e5-9246-f079592f54ca",
+                    "CityName": "长春市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0afa6e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "常州市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0afeeb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "滁州市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0aff73-9252-11e5-9246-f079592f54ca",
+                    "CityName": "巢湖市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0affe1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "池州市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b0f70-9252-11e5-9246-f079592f54ca",
+                    "CityName": "长沙市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b1087-9252-11e5-9246-f079592f54ca",
+                    "CityName": "常德市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b10fe-9252-11e5-9246-f079592f54ca",
+                    "CityName": "郴州市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b1485-9252-11e5-9246-f079592f54ca",
+                    "CityName": "潮州市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b16f1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "崇左市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac0b1789-9252-11e5-9246-f079592f54ca",
+                    "CityName": "成都市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac180c04-9252-11e5-9246-f079592f54ca",
+                    "CityName": "楚雄彝族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac180de0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "昌都地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                },
+                {
+                    "CityId": "ac181540-9252-11e5-9246-f079592f54ca",
+                    "CityName": "昌吉回族自治州",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "C"
+                }
+            ]
+        },
+        {
+            "D": [
+                {
+                    "CityId": "ac0ae938-9252-11e5-9246-f079592f54ca",
+                    "CityName": "大同市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0af431-9252-11e5-9246-f079592f54ca",
+                    "CityName": "大连市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0af4d5-9252-11e5-9246-f079592f54ca",
+                    "CityName": "丹东市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0af8aa-9252-11e5-9246-f079592f54ca",
+                    "CityName": "大庆市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0af9b1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "大兴安岭地区",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0b03bb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "东营市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0b0503-9252-11e5-9246-f079592f54ca",
+                    "CityName": "德州市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0b143b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "东莞市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0b1835-9252-11e5-9246-f079592f54ca",
+                    "CityName": "德阳市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac0b19bc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "达州市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac180ccd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "大理白族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac180d33-9252-11e5-9246-f079592f54ca",
+                    "CityName": "德宏傣族景颇族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac180d8e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "迪庆藏族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                },
+                {
+                    "CityId": "ac1811f7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "定西市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "D"
+                }
+            ]
+        },
+        {
+            "E": [
+                {
+                    "CityId": "ac0af2a6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鄂尔多斯市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "E"
+                },
+                {
+                    "CityId": "ac0b08d4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鄂州市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "E"
+                },
+                {
+                    "CityId": "ac0b09e7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "恩施土家族苗族自治州",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "E"
+                }
+            ]
+        },
+        {
+            "F": [
+                {
+                    "CityId": "ac0af483-9252-11e5-9246-f079592f54ca",
+                    "CityName": "抚顺市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0af54c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阜新市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0aff29-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阜阳市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0b002b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "福州市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0b02cd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "抚州市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0b1280-9252-11e5-9246-f079592f54ca",
+                    "CityName": "佛山市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                },
+                {
+                    "CityId": "ac0b15bd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "防城港市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "F"
+                }
+            ]
+        },
+        {
+            "G": [
+                {
+                    "CityId": "ac0b025e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "赣州市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b11c3-9252-11e5-9246-f079592f54ca",
+                    "CityName": "广州市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b1546-9252-11e5-9246-f079592f54ca",
+                    "CityName": "桂林市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b160b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "贵港市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b1888-9252-11e5-9246-f079592f54ca",
+                    "CityName": "广元市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b1997-9252-11e5-9246-f079592f54ca",
+                    "CityName": "广安市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b1a81-9252-11e5-9246-f079592f54ca",
+                    "CityName": "甘孜藏族自治州",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac0b1afc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "贵阳市",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac18126e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "甘南藏族自治州",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac181358-9252-11e5-9246-f079592f54ca",
+                    "CityName": "果洛藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                },
+                {
+                    "CityId": "ac181446-9252-11e5-9246-f079592f54ca",
+                    "CityName": "固原市",
+                    "ProvinceId": "2f847d09-9251-11e5-9246-f079592f54ca",
+                    "First": "G"
+                }
+            ]
+        },
+        {
+            "H": [
+                {
+                    "CityId": "ac0ae6f1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "邯郸市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0ae8e6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "衡水市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0aeae3-9252-11e5-9246-f079592f54ca",
+                    "CityName": "呼和浩特市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0af2d4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "呼伦贝尔市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0af61d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "葫芦岛市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0af7e1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "哈尔滨市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0af85c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鹤岗市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0af967-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黑河市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afb16-9252-11e5-9246-f079592f54ca",
+                    "CityName": "淮安市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afc0c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "杭州市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afca0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "湖州市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afd9f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "合肥市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afe0d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "淮南市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afe57-9252-11e5-9246-f079592f54ca",
+                    "CityName": "淮北市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0afec6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黄山市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b0572-9252-11e5-9246-f079592f54ca",
+                    "CityName": "荷泽市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b0650-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鹤壁市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b0841-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黄石市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b0979-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黄冈市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b1010-9252-11e5-9246-f079592f54ca",
+                    "CityName": "衡阳市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b1148-9252-11e5-9246-f079592f54ca",
+                    "CityName": "怀化市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b1341-9252-11e5-9246-f079592f54ca",
+                    "CityName": "惠州市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b13b4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "河源市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b167e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "贺州市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b16a3-9252-11e5-9246-f079592f54ca",
+                    "CityName": "河池市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac0b1716-9252-11e5-9246-f079592f54ca",
+                    "CityName": "海口市",
+                    "ProvinceId": "2f847bb4-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac180c3d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "红河哈尼族彝族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac180fbc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "汉中市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac1812bc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "海东地区",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac1812e1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "海北藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac18130a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黄南藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac181333-9252-11e5-9246-f079592f54ca",
+                    "CityName": "海南藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac1813a6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "海西蒙古族藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac181517-9252-11e5-9246-f079592f54ca",
+                    "CityName": "哈密地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                },
+                {
+                    "CityId": "ac1816d3-9252-11e5-9246-f079592f54ca",
+                    "CityName": "和田地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "H"
+                }
+            ]
+        },
+        {
+            "J": [
+                {
+                    "CityId": "ac0ae9bc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "晋城市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0aea16-9252-11e5-9246-f079592f54ca",
+                    "CityName": "晋中市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0af4fa-9252-11e5-9246-f079592f54ca",
+                    "CityName": "锦州市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0af66f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "吉林市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0af833-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鸡西市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0af8f4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "佳木斯市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0afc7b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "嘉兴市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0afce6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "金华市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b019d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "景德镇市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b01e7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "九江市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b0283-9252-11e5-9246-f079592f54ca",
+                    "CityName": "吉安市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b0327-9252-11e5-9246-f079592f54ca",
+                    "CityName": "济南市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b042a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "济宁市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b069a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "焦作市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b08f9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "荆门市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b0954-9252-11e5-9246-f079592f54ca",
+                    "CityName": "荆州市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b12a9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "江门市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac0b14ae-9252-11e5-9246-f079592f54ca",
+                    "CityName": "揭阳市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac181081-9252-11e5-9246-f079592f54ca",
+                    "CityName": "嘉峪关市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac1810a6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "金昌市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                },
+                {
+                    "CityId": "ac1811a9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "酒泉市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "J"
+                }
+            ]
+        },
+        {
+            "K": [
+                {
+                    "CityId": "ac0b05bc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "开封市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "K"
+                },
+                {
+                    "CityId": "ac0b1ce8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "昆明市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "K"
+                },
+                {
+                    "CityId": "ac1814b9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "克拉玛依市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "K"
+                },
+                {
+                    "CityId": "ac1815f1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "克孜勒苏柯尔克孜自治州",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "K"
+                },
+                {
+                    "CityId": "ac1816aa-9252-11e5-9246-f079592f54ca",
+                    "CityName": "喀什地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "K"
+                }
+            ]
+        },
+        {
+            "L": [
+                {
+                    "CityId": "ac0ae8b5-9252-11e5-9246-f079592f54ca",
+                    "CityName": "廊坊市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0aea91-9252-11e5-9246-f079592f54ca",
+                    "CityName": "临汾市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0aeaba-9252-11e5-9246-f079592f54ca",
+                    "CityName": "吕梁市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0af575-9252-11e5-9246-f079592f54ca",
+                    "CityName": "辽阳市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0af6bd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "辽源市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0afadc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "连云港市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0afd7a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "丽水市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0aff98-9252-11e5-9246-f079592f54ca",
+                    "CityName": "六安市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b012e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "龙岩市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b04b9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "莱芜市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b04de-9252-11e5-9246-f079592f54ca",
+                    "CityName": "临沂市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b0528-9252-11e5-9246-f079592f54ca",
+                    "CityName": "聊城市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b05e1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "洛阳市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b1171-9252-11e5-9246-f079592f54ca",
+                    "CityName": "娄底市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b1521-9252-11e5-9246-f079592f54ca",
+                    "CityName": "柳州市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b16cc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "来宾市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b18fb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "乐山市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b1aba-9252-11e5-9246-f079592f54ca",
+                    "CityName": "凉山彝族自治州",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b1b39-9252-11e5-9246-f079592f54ca",
+                    "CityName": "六盘水市",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac0b1dad-9252-11e5-9246-f079592f54ca",
+                    "CityName": "丽江市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac180b05-9252-11e5-9246-f079592f54ca",
+                    "CityName": "临沧市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac180db7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "拉萨市",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac180ea9-9252-11e5-9246-f079592f54ca",
+                    "CityName": "林芝地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac181058-9252-11e5-9246-f079592f54ca",
+                    "CityName": "兰州市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac18121c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "陇南市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                },
+                {
+                    "CityId": "ac181245-9252-11e5-9246-f079592f54ca",
+                    "CityName": "临夏回族自治州",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "L"
+                }
+            ]
+        },
+        {
+            "M": [
+                {
+                    "CityId": "ac0af942-9252-11e5-9246-f079592f54ca",
+                    "CityName": "牡丹江市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                },
+                {
+                    "CityId": "ac0afe32-9252-11e5-9246-f079592f54ca",
+                    "CityName": "马鞍山市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                },
+                {
+                    "CityId": "ac0b12f7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "茂名市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                },
+                {
+                    "CityId": "ac0b1366-9252-11e5-9246-f079592f54ca",
+                    "CityName": "梅州市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                },
+                {
+                    "CityId": "ac0b185f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "绵阳市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                },
+                {
+                    "CityId": "ac0b1949-9252-11e5-9246-f079592f54ca",
+                    "CityName": "眉山市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "M"
+                }
+            ]
+        },
+        {
+            "N": [
+                {
+                    "CityId": "ac0af9ff-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南京市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0afab8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南通市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0afc31-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宁波市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b0109-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南平市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b014f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宁德市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b0174-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南昌市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b0767-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南阳市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b14f8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南宁市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b18d6-9252-11e5-9246-f079592f54ca",
+                    "CityName": "内江市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac0b1920-9252-11e5-9246-f079592f54ca",
+                    "CityName": "南充市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac180d65-9252-11e5-9246-f079592f54ca",
+                    "CityName": "怒江傈僳族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                },
+                {
+                    "CityId": "ac180e5b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "那曲地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "N"
+                }
+            ]
+        },
+        {
+            "P": [
+                {
+                    "CityId": "ac0af5a2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "盘锦市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                },
+                {
+                    "CityId": "ac0b0075-9252-11e5-9246-f079592f54ca",
+                    "CityName": "莆田市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                },
+                {
+                    "CityId": "ac0b01be-9252-11e5-9246-f079592f54ca",
+                    "CityName": "萍乡市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                },
+                {
+                    "CityId": "ac0b0606-9252-11e5-9246-f079592f54ca",
+                    "CityName": "平顶山市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                },
+                {
+                    "CityId": "ac0b17d7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "攀枝花市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                },
+                {
+                    "CityId": "ac181180-9252-11e5-9246-f079592f54ca",
+                    "CityName": "平凉市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "P"
+                }
+            ]
+        },
+        {
+            "Q": [
+                {
+                    "CityId": "ac0ae6bc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "秦皇岛市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0af80a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "齐齐哈尔市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0af91d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "七台河市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b00bf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "泉州市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b034c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "青岛市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b1412-9252-11e5-9246-f079592f54ca",
+                    "CityName": "清远市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b15e2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "钦州市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b1c27-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黔西南布依族苗族自治州",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b1c7e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黔东南苗族侗族自治州",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b1cbb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "黔南布依族苗族自治州",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac0b1d11-9252-11e5-9246-f079592f54ca",
+                    "CityName": "曲靖市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                },
+                {
+                    "CityId": "ac1811d2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "庆阳市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "Q"
+                }
+            ]
+        },
+        {
+            "R": [
+                {
+                    "CityId": "ac0b0499-9252-11e5-9246-f079592f54ca",
+                    "CityName": "日照市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "R"
+                },
+                {
+                    "CityId": "ac180e32-9252-11e5-9246-f079592f54ca",
+                    "CityName": "日喀则地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "R"
+                }
+            ]
+        },
+        {
+            "S": [
+                {
+                    "CityId": "ac0ae651-9252-11e5-9246-f079592f54ca",
+                    "CityName": "石家庄市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0ae9e5-9252-11e5-9246-f079592f54ca",
+                    "CityName": "朔州市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af3ff-9252-11e5-9246-f079592f54ca",
+                    "CityName": "沈阳市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af698-9252-11e5-9246-f079592f54ca",
+                    "CityName": "四平市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af762-9252-11e5-9246-f079592f54ca",
+                    "CityName": "松原市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af881-9252-11e5-9246-f079592f54ca",
+                    "CityName": "双鸭山市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af98c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "绥化市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0af9da-9252-11e5-9246-f079592f54ca",
+                    "CityName": "上海市",
+                    "ProvinceId": "2f84798e-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0afa93-9252-11e5-9246-f079592f54ca",
+                    "CityName": "苏州市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0afbe7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宿迁市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0afcc1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "绍兴市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0aff52-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宿州市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b009a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "三明市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b02f2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "上饶市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b0742-9252-11e5-9246-f079592f54ca",
+                    "CityName": "三门峡市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b078c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "商丘市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b0865-9252-11e5-9246-f079592f54ca",
+                    "CityName": "十堰市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b09c2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "随州市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b0f1e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "神农架",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b1039-9252-11e5-9246-f079592f54ca",
+                    "CityName": "邵阳市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b11e8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "韶关市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b120d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "深圳市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b125b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "汕头市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b138f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "汕尾市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b173f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "三亚市",
+                    "ProvinceId": "2f847bb4-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b18ad-9252-11e5-9246-f079592f54ca",
+                    "CityName": "遂宁市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac0b1dd2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "思茅市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac180e09-9252-11e5-9246-f079592f54ca",
+                    "CityName": "山南地区",
+                    "ProvinceId": "2f847c61-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac181033-9252-11e5-9246-f079592f54ca",
+                    "CityName": "商洛市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac1813f4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "石嘴山市",
+                    "ProvinceId": "2f847d09-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                },
+                {
+                    "CityId": "ac181777-9252-11e5-9246-f079592f54ca",
+                    "CityName": "石河子市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "S"
+                }
+            ]
+        },
+        {
+            "T": [
+                {
+                    "CityId": "ac0ae5d2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "天津市",
+                    "ProvinceId": "2f8477ae-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0ae68b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "唐山市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0ae90f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "太原市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0af269-9252-11e5-9246-f079592f54ca",
+                    "CityName": "通辽市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0af5cb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "铁岭市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0af707-9252-11e5-9246-f079592f54ca",
+                    "CityName": "通化市",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0afbaa-9252-11e5-9246-f079592f54ca",
+                    "CityName": "泰州市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0afd55-9252-11e5-9246-f079592f54ca",
+                    "CityName": "台州市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0afe7c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "铜陵市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0b044f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "泰安市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac0b1bea-9252-11e5-9246-f079592f54ca",
+                    "CityName": "铜仁地区",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac180efb-9252-11e5-9246-f079592f54ca",
+                    "CityName": "铜川市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac1810f8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "天水市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac1814e2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "吐鲁番地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac181725-9252-11e5-9246-f079592f54ca",
+                    "CityName": "塔城地区",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac18181f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "图木舒克市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                },
+                {
+                    "CityId": "ac1818bf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "台湾省",
+                    "ProvinceId": "2f847da1-9251-11e5-9246-f079592f54ca",
+                    "First": "T"
+                }
+            ]
+        },
+        {
+            "W": [
+                {
+                    "CityId": "ac0aeb3a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "乌海市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0af32a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "乌兰察布市",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0afa24-9252-11e5-9246-f079592f54ca",
+                    "CityName": "无锡市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0afc56-9252-11e5-9246-f079592f54ca",
+                    "CityName": "温州市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0afdc4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "芜湖市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0b0405-9252-11e5-9246-f079592f54ca",
+                    "CityName": "潍坊市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0b0474-9252-11e5-9246-f079592f54ca",
+                    "CityName": "威海市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0b081c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "武汉市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac0b156f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "梧州市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac180c73-9252-11e5-9246-f079592f54ca",
+                    "CityName": "文山壮族苗族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac180f72-9252-11e5-9246-f079592f54ca",
+                    "CityName": "渭南市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac181132-9252-11e5-9246-f079592f54ca",
+                    "CityName": "武威市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac18141d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "吴忠市",
+                    "ProvinceId": "2f847d09-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac181494-9252-11e5-9246-f079592f54ca",
+                    "CityName": "乌鲁木齐市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                },
+                {
+                    "CityId": "ac181848-9252-11e5-9246-f079592f54ca",
+                    "CityName": "五家渠市",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "W"
+                }
+            ]
+        },
+        {
+            "X": [
+                {
+                    "CityId": "ac0ae760-9252-11e5-9246-f079592f54ca",
+                    "CityName": "邢台市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0aea68-9252-11e5-9246-f079592f54ca",
+                    "CityName": "忻州市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0af353-9252-11e5-9246-f079592f54ca",
+                    "CityName": "兴安盟",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0af38c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "锡林郭勒盟",
+                    "ProvinceId": "2f847898-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0afa49-9252-11e5-9246-f079592f54ca",
+                    "CityName": "徐州市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b0006-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宣城市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b0050-9252-11e5-9246-f079592f54ca",
+                    "CityName": "厦门市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b0210-9252-11e5-9246-f079592f54ca",
+                    "CityName": "新余市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b0675-9252-11e5-9246-f079592f54ca",
+                    "CityName": "新乡市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b06f4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "许昌市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b07b1-9252-11e5-9246-f079592f54ca",
+                    "CityName": "信阳市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b08af-9252-11e5-9246-f079592f54ca",
+                    "CityName": "襄樊市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b092f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "孝感市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b099e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "咸宁市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b0fce-9252-11e5-9246-f079592f54ca",
+                    "CityName": "湘潭市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac0b1196-9252-11e5-9246-f079592f54ca",
+                    "CityName": "湘西土家族苗族自治州",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac180ca0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "西双版纳傣族自治州",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac180ed2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "西安市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac180f49-9252-11e5-9246-f079592f54ca",
+                    "CityName": "咸阳市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac181293-9252-11e5-9246-f079592f54ca",
+                    "CityName": "西宁市",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                },
+                {
+                    "CityId": "ac181871-9252-11e5-9246-f079592f54ca",
+                    "CityName": "香港特别行政区",
+                    "ProvinceId": "2f847d53-9251-11e5-9246-f079592f54ca",
+                    "First": "X"
+                }
+            ]
+        },
+        {
+            "Y": [
+                {
+                    "CityId": "ac0ae962-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阳泉市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0aea3f-9252-11e5-9246-f079592f54ca",
+                    "CityName": "运城市",
+                    "ProvinceId": "2f84786f-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0af523-9252-11e5-9246-f079592f54ca",
+                    "CityName": "营口市",
+                    "ProvinceId": "2f8478c5-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0af7b4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "延边朝鲜族自治州",
+                    "ProvinceId": "2f8478ea-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0af8cf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "伊春市",
+                    "ProvinceId": "2f847940-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0afb3b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "盐城市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0afb60-9252-11e5-9246-f079592f54ca",
+                    "CityName": "扬州市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b0239-9252-11e5-9246-f079592f54ca",
+                    "CityName": "鹰潭市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b02a8-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宜春市",
+                    "ProvinceId": "2f847aaa-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b03e0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "烟台市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b088a-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宜昌市",
+                    "ProvinceId": "2f847b21-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b1062-9252-11e5-9246-f079592f54ca",
+                    "CityName": "岳阳市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b10d5-9252-11e5-9246-f079592f54ca",
+                    "CityName": "益阳市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b1123-9252-11e5-9246-f079592f54ca",
+                    "CityName": "永州市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b13dd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "阳江市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b14d3-9252-11e5-9246-f079592f54ca",
+                    "CityName": "云浮市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b1630-9252-11e5-9246-f079592f54ca",
+                    "CityName": "玉林市",
+                    "ProvinceId": "2f847b8b-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b196e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "宜宾市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b19e0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "雅安市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac0b1d36-9252-11e5-9246-f079592f54ca",
+                    "CityName": "玉溪市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac180f97-9252-11e5-9246-f079592f54ca",
+                    "CityName": "延安市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac180fe5-9252-11e5-9246-f079592f54ca",
+                    "CityName": "榆林市",
+                    "ProvinceId": "2f847c8a-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac18137d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "玉树藏族自治州",
+                    "ProvinceId": "2f847ce8-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac1813cf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "银川市",
+                    "ProvinceId": "2f847d09-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                },
+                {
+                    "CityId": "ac1816fc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "伊犁哈萨克自治州",
+                    "ProvinceId": "2f847d2e-9251-11e5-9246-f079592f54ca",
+                    "First": "Y"
+                }
+            ]
+        },
+        {
+            "Z": [
+                {
+                    "CityId": "ac0ae832-9252-11e5-9246-f079592f54ca",
+                    "CityName": "张家口市",
+                    "ProvinceId": "2f847842-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0afb85-9252-11e5-9246-f079592f54ca",
+                    "CityName": "镇江市",
+                    "ProvinceId": "2f8479c0-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0afd0b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "衢州市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0afd30-9252-11e5-9246-f079592f54ca",
+                    "CityName": "舟山市",
+                    "ProvinceId": "2f8479e0-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0affbd-9252-11e5-9246-f079592f54ca",
+                    "CityName": "亳州市",
+                    "ProvinceId": "2f847a05-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b00e4-9252-11e5-9246-f079592f54ca",
+                    "CityName": "漳州市",
+                    "ProvinceId": "2f847a2a-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b0371-9252-11e5-9246-f079592f54ca",
+                    "CityName": "淄博市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b0396-9252-11e5-9246-f079592f54ca",
+                    "CityName": "枣庄市",
+                    "ProvinceId": "2f847adf-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b0597-9252-11e5-9246-f079592f54ca",
+                    "CityName": "郑州市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b06bf-9252-11e5-9246-f079592f54ca",
+                    "CityName": "濮阳市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b071d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "漯河市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b07d2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "周口市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b07f7-9252-11e5-9246-f079592f54ca",
+                    "CityName": "驻马店市",
+                    "ProvinceId": "2f847b00-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b0f9d-9252-11e5-9246-f079592f54ca",
+                    "CityName": "株洲市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b10b0-9252-11e5-9246-f079592f54ca",
+                    "CityName": "张家界市",
+                    "ProvinceId": "2f847b4e-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1236-9252-11e5-9246-f079592f54ca",
+                    "CityName": "珠海市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b12ce-9252-11e5-9246-f079592f54ca",
+                    "CityName": "湛江市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b131c-9252-11e5-9246-f079592f54ca",
+                    "CityName": "肇庆市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1460-9252-11e5-9246-f079592f54ca",
+                    "CityName": "中山市",
+                    "ProvinceId": "2f847b6b-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1764-9252-11e5-9246-f079592f54ca",
+                    "CityName": "重庆市",
+                    "ProvinceId": "2f847bd5-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b17b2-9252-11e5-9246-f079592f54ca",
+                    "CityName": "自贡市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b17fc-9252-11e5-9246-f079592f54ca",
+                    "CityName": "泸州市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1a2e-9252-11e5-9246-f079592f54ca",
+                    "CityName": "资阳市",
+                    "ProvinceId": "2f847bf6-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1b73-9252-11e5-9246-f079592f54ca",
+                    "CityName": "遵义市",
+                    "ProvinceId": "2f847c17-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac0b1d84-9252-11e5-9246-f079592f54ca",
+                    "CityName": "昭通市",
+                    "ProvinceId": "2f847c38-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac18115b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "张掖市",
+                    "ProvinceId": "2f847cc8-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                },
+                {
+                    "CityId": "ac18146b-9252-11e5-9246-f079592f54ca",
+                    "CityName": "中卫市",
+                    "ProvinceId": "2f847d09-9251-11e5-9246-f079592f54ca",
+                    "First": "Z"
+                }
+            ]
+        }
+    ],
+    "ResponseCode": "0",
+    "ResponseDescription": ""
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp">
+
+   <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="1.什么是抵用券？" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抵用券是犇车网发行认可的代金券，可以在犇车网下单付款时直接抵扣相应面值的金额。" />
+     <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="16sp"
+        android:text="2.如何使用抵用券？" />
+      <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单笔订单结算界面，系统会自动选择满足条件的优惠金额最高的一张优惠券使用，验证成功可抵扣相应面值的金额。" />
+       <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="16sp"
+        android:text="3.抵用券可以叠加使用吗？" />
+        <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抵用券不支持叠加使用，每一笔订单只能使用一张抵用券。" />
+         <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="16sp"
+        android:text="4.抵用券支持找零兑换吗？" />
+          <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抵用券使用时，不找零、不兑换。" />
+          <!--  <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="16sp"
+        android:text="5.抵用券支持找零兑换吗？" />
+            <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="会退还。取消订单后，订单使用的优惠券会退还给您。" /> -->
+          <!--    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="16sp"
+        android:text="6.抵用券支持找零兑换吗？" />
+             <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不会退还，抵用券一经使用，概不退回。" />
+ -->
+             <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.本说明最终解释权归犇车网所有" />
+</LinearLayout>

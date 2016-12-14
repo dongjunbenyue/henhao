@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+
+<!-- 选择车型型号的ListView使用的行布局文件 -->
+
+<LinearLayout
+    android:id="@+id/RelativeLayout_item001" 
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" 
+    android:orientation="vertical" >
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearLayout_shop_data_show001"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/TextView_disconery_shop_name001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text="湖南兰天英菲尼迪4S店"
+                        android:textColor="@color/inputblack"
+                        android:textSize="16sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <RatingBar
+            android:id="@+id/RatingBar_discover_main_star_num001"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5" 
+                android:rating="4"
+                android:isIndicator="false"
+                style="@style/MyRatingBar_m"/>
+        
+        <LinearLayout 
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            >
+            <TextView 
+                android:id="@+id/TextView_shop_distance_num001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5km"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp"/>
+            <View 
+                android:layout_margin="5dp"
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                android:background="@color/hintblack"/>
+            <TextView 
+                android:id="@+id/TextView_shop_address_num001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="河西汽车城"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:maxLength="6"/>
+        </LinearLayout>
+     </RelativeLayout>
+     </LinearLayout>
+     <View android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:background="@color/common_bg"/>
+    <ListView 
+        android:id="@+id/ListView_discover_item_project001"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:background="@color/white"
+        android:divider="@color/common_bg"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="false"/>
+    <LinearLayout 
+        android:id="@+id/LinearLayout_more_project001"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout 
+        android:id="@+id/LinearLayout_more_project_text_hanzi001"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:textColor="@color/hintblack"
+        />
+    <TextView 
+        android:id="@+id/TextView_num_text001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一"
+        android:textColor="@color/hintblack"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项服务"
+        android:textColor="@color/hintblack"
+        />
+    </LinearLayout>
+    <ImageView 
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ImageView_up_or_down001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/down"/>
+    </LinearLayout>
+        </LinearLayout>
+    
+    
+    
+

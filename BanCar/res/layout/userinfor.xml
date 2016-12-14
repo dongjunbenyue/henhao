@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/common_bg"
+     xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent" >
+ <ScrollView android:layout_width="match_parent"
+     
+     android:layout_height="match_parent">
+  <LinearLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+  <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="62dp"
+      android:id="@+id/gotochangeimg"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/image"/>
+      <ImageView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/xiayibu"
+                  android:layout_centerVertical="true"
+                 android:layout_alignParentRight="true"
+                 android:id="@+id/nextimg"
+                 />
+      <com.facebook.drawee.view.SimpleDraweeView 
+                android:layout_width="50dp"
+                 android:layout_height="50dp"
+                  android:layout_centerVertical="true"
+                   android:id="@+id/SimpleDraweeView_user_info_usericon001"
+                  android:layout_marginRight="11dp"
+                  fresco:actualImageScaleType="focusCrop"
+                 android:layout_toLeftOf="@+id/nextimg"
+                 android:background="@drawable/icon_nantouxiang"
+                 />
+  </RelativeLayout>
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changenick"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/nickname"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/userinfornick"
+                  />
+     
+  </RelativeLayout>  
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/telephone"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:id="@+id/userinfor_telephone"
+                  />
+     
+  </RelativeLayout> 
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changadress"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/myadress"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  />
+     
+  </RelativeLayout>                     
+  </LinearLayout> 
+  <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+  
+ 
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changsex"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/sex"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/textsex"
+                  />
+     
+  </RelativeLayout>  
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changbirth"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/birthday"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/textbirth"
+                  />
+     
+  </RelativeLayout> 
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changdistrict"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/district"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/textdistrict"
+                  />
+     
+  </RelativeLayout>                     
+  </LinearLayout>
+   <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+  
+ 
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changsign"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="@string/sign"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                   android:maxEms="15"
+                  android:ellipsize="end"
+
+                  android:textSize="@dimen/common_textsize_tiny"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/textsign"
+                  />
+     
+  </RelativeLayout>
+  <View android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/common_bg"/>    
+  <RelativeLayout android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:id="@+id/changhangye"
+      android:paddingRight="12dp">
+      <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_centerVertical="true"
+             android:textSize="@dimen/common_textsize_mediumup"
+             android:textColor="@color/black"
+             android:layout_alignParentLeft="true"
+             android:text="行业"/>
+      <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="@color/inputblack"
+                  android:textSize="@dimen/common_textsize_medium"
+                  android:drawableRight="@drawable/xiayibu"
+                  android:id="@+id/texthangye"
+                  />
+     
+  </RelativeLayout>
+  </LinearLayout> 
+  </LinearLayout> 
+  
+ 
+
+</ScrollView>
+ <ListView android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/hangyelist"
+     android:background="@color/white"
+     android:visibility="gone"></ListView>
+ <!-- 调用系统相机和图片 -->
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_camera_show001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#55000000"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_camera_show_zhaoxiang001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/yuanjiao_biankuang_baikuang_touming"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="照相"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_bg" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_camera_show_bendi001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="本地获取"
+                    android:textColor="@color/mainblue" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/common_bg" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_camera_show_quxiao001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout> 
+    
+    <include layout="@layout/signature_edittext_xml"/>   
+    <include layout="@layout/birthday_date_xml"/>
+    <include layout="@layout/city_item_pop_xml"/>
+</RelativeLayout>   

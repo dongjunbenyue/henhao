@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+   android:background="@color/common_bg"
+    
+    tools:context="com.zeatrip.android.bancar.ServiceActivity" >
+   <RelativeLayout android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white"
+       android:layout_marginTop="1dp"
+       android:id="@+id/toprele"
+       android:layout_alignParentTop="true"
+    android:padding="15dp"
+    >
+     <com.facebook.drawee.view.SimpleDraweeView
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/wangdian_logo0011"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1" />   
+      <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="@color/black"
+                 android:layout_marginTop="10dp"
+                 android:textSize="14sp"
+                 android:id="@+id/serviceshopname"
+                 android:text="56546"
+                 android:layout_toRightOf="@+id/wangdian_logo0011"/>  
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/inputblack"
+                android:textSize="@dimen/common_textsize_small"
+                android:layout_marginTop="10dp"
+                android:text="jhkljh"
+                android:id="@+id/shopadress"
+                android:layout_below="@+id/serviceshopname"
+                android:layout_alignLeft="@+id/serviceshopname"/>
+      <ImageView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/xiayibu"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"/>                    
+   </RelativeLayout> 
+   <LinearLayout android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="1dp"
+       android:id="@+id/linestatus"
+       android:layout_below="@+id/toprele"
+       android:padding="15dp"
+       android:background="@color/white">
+       <TextView android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/inputblack"
+           android:textSize="@dimen/common_textsize_small"
+           android:text="订单状态： 服务中"/>
+       
+   </LinearLayout>
+   <LinearLayout android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="15dp"
+       android:layout_marginTop="1dp"
+       android:background="@color/white"
+       android:layout_below="@+id/linestatus"
+       android:id="@+id/xiamianline"
+       android:orientation="horizontal">
+ <LinearLayout android:layout_width="0dp"
+     android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:gravity="right|center_vertical">   
+              <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="5dp"
+                  android:src="@drawable/icon_xuanzhong"/> 
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/mainblue"
+    android:layout_marginRight="10dp"
+    android:text="过期退"
+    
+    android:textSize="@dimen/common_textsize_tiny"
+    />
+</LinearLayout>     
+ <LinearLayout android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="left|center_vertical">   
+               <ImageView android:layout_width="wrap_content"
+                   android:layout_marginLeft="10dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="5dp"
+                  android:src="@drawable/icon_xuanzhong"/> 
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/mainblue"
+   
+    android:text="随时退"
+    
+    android:textSize="@dimen/common_textsize_tiny"
+    />
+</LinearLayout>             
+   </LinearLayout>
+  <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/xiamianline"
+        android:id="@+id/serviceListview"
+        android:background="@color/white"></ListView>
+
+</RelativeLayout>

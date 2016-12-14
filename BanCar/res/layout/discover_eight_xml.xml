@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/TextView_discovery_item001"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_banjingpengqi"
+            android:text="钣金喷漆"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item002"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_dujindumo"
+            android:text="镀金镀膜"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item003"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_shineibaoyang"
+            android:text="室内美容"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item004"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_qichetiemo"
+            android:text="汽车贴膜"/>
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/TextView_discovery_item005"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_paoguangdala"
+            android:text="抛光打蜡"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item006"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_qichejingpin"
+            android:text="汽车精品"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item007"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_diyongquan"
+            android:text="抵用券"/>
+        <TextView
+            android:id="@+id/TextView_discovery_item008"
+            android:textColor="@color/inputblack"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_qita"
+            android:text="更多"/>
+        
+        
+        
+    </LinearLayout> 
+
+</LinearLayout>

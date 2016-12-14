@@ -1,0 +1,82 @@
+<!-- 选择车辆的ListView使用的行布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal" 
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/list_item_select_car_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:roundAsCircle="false"
+            fresco:roundedCornerRadius="3dp" />
+
+        <TextView
+            android:id="@+id/list_item_select_car_is_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="默认车辆"
+            android:textColor="#B2B2B2"
+            android:textSize="@dimen/common_textsize_small"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingTop="15dp"
+        android:background="@color/transparent"
+        android:paddingLeft="3dp"
+        android:paddingBottom="13dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_item_select_car_CarName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingBottom="@dimen/common_textview_padding_half"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/list_item_select_car_CarMiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:textSize="14sp"
+            android:textColor="#7c7878"
+            android:paddingBottom="@dimen/common_textview_padding_half"
+            android:paddingTop="@dimen/common_textview_padding_half"
+            android:text="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+    <CheckBox
+	    android:id="@+id/list_item_select_car_checked"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="@dimen/common_view_horizontal_spacing"
+	    android:button="@drawable/bg_checkbox"
+	    android:clickable="false"
+	    />
+</LinearLayout>
+</LinearLayout>

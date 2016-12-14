@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用标题栏1 -->
+    <dimen name="common_title_1_textsize_large">18.0sp</dimen>
+    <dimen name="common_title_1_textsize_medium">16.0sp</dimen>
+    <dimen name="common_title_1_textsize_small">14.0sp</dimen>
+    <dimen name="common_title_1_textsize_little">12.0sp</dimen>
+    <!-- 通用工具栏1 -->
+    <dimen name="common_toolbar_1_radiobutton_textsize">12.0sp</dimen>
+    <dimen name="common_toolbar_1_radiobutton_drawable_padding">1.0dp</dimen>
+    <dimen name="common_toolbar_1_radiobutton_padding_vertical">3.0dp</dimen>
+ <dimen name="common_toolbar_1_radiobutton_padding_vertical1">8.0dp</dimen>
+    <!-- 通用内容页 -->
+    <dimen name="common_body_page_padding">10.0dp</dimen>
+    <dimen name="common_body_page_padding_half">10.0dp</dimen>
+    <dimen name="common_body_page_margin">20.0dp</dimen>
+    <dimen name="common_body_page_margin_half">10.0dp</dimen>
+
+    <!-- 通用尺寸定义 -->
+    <dimen name="common_view_horizontal_spacing">5.0dp</dimen>
+ <!-- 控件之间的左右间距 -->
+    <dimen name="common_view_horizontal_spacing_half">2.5dp</dimen>
+    <dimen name="common_view_vertical_login">20.0dp</dimen>
+ <!-- 控件之间的上下间距;login -->
+    <dimen name="common_view_vertical_spacing">10.0dp</dimen>
+ <!-- 控件之间的上下间距 -->
+    <dimen name="common_view_vertical_spacing_half">5.0dp</dimen>
+    <dimen name="common_textsize_big">24.0sp</dimen>
+     <dimen name="common_textsize_big0">18.0sp</dimen>
+    <dimen name="common_textsize_blar">17.0sp</dimen>
+    <dimen name="common_textsize_large">16.0sp</dimen>
+    <dimen name="common_textsize_mediumup">15.0sp</dimen>
+    <dimen name="common_textsize_medium">14.0sp</dimen>
+    <dimen name="common_textsize_small">12.0sp</dimen>
+    <dimen name="common_textsize_smallup">13.0sp</dimen>
+    <dimen name="common_textsize_tiny">11.0sp</dimen>
+
+    <!-- 在TextView、Button、EditText的上下左右显示图标时，图标和文字的距离 -->
+    <dimen name="common_textview_drawable_padding">12.0dp</dimen>
+    <dimen name="common_textview_padding">10.0dp</dimen>
+    <dimen name="common_textview_padding_zero">0dp</dimen>
+    <dimen name="common_textview_padding_half">5.0dp</dimen>
+    <dimen name="common_textview_padding_vertical">5.0dp</dimen>
+    <dimen name="common_textview_padding_horizontal">10.0dp</dimen>
+    <dimen name="common_button_padding">10.0dp</dimen>
+    <dimen name="common_button_padding_half">5.0dp</dimen>
+    <dimen name="common_button_padding_vertical">10.0dp</dimen>
+    <dimen name="common_button_padding_horizontal">10.0dp</dimen>
+    <dimen name="common_edittext_padding">10.0dp</dimen>
+    <dimen name="common_edittext_padding_half">5.0dp</dimen>
+    <dimen name="common_edittext_padding_vertical">10.0dp</dimen>
+    <dimen name="common_edittext_padding_horizontal">10.0dp</dimen>
+
+    <!-- 页面body_my_order.xml中的切换条高度 -->
+    <dimen name="my_order_topbar_height">35.0dp</dimen>
+    <!-- 页面body_shop4s_join.xml中的顶部圆点直径 -->
+    <dimen name="shop4s_join_circle_diameter">25.0dp</dimen>
+    <!-- 页面body_shop4s_info.xml -->
+    <dimen name="shop4s_info_call_phone_size">30.0dp</dimen>
+    <!-- 页面body_shop4s_details.xml -->
+    <dimen name="shop4s_details_call_phone_size">30.0dp</dimen>
+    <!-- 页面list_item_shop4s_evaluate.xml -->
+    <dimen name="shop4s_evaluate_user_img_width">55.0dp</dimen>
+    <!-- 页面body_shop4s_maintain_fill_in_order.xml -->
+    <dimen name="shop4s_maintain_fill_in_order_shop_address_img_width">15.0dp</dimen>
+    <!-- 页面list_item_service_network.xml中的切换条高度 -->
+    <dimen name="list_item_service_network_logo_width">70.0dp</dimen>
+    <!-- 页面list_item_wavelength.xml中的切换条高度 -->
+    <dimen name="list_item_wavelength_logo_width">65.0dp</dimen>
+    <!-- 页面body_wavelength_detail.xml中的图片高度 -->
+    <dimen name="wavelength_detail_pic_height">120.0dp</dimen>
+    <dimen name="wavelength_detail_icon_height">45.0dp</dimen>
+    <dimen name="left_margin">10dp</dimen>
+    <dimen name="right_margin">10dp</dimen>
+    <dimen name="top_margin">10dp</dimen>
+    <dimen name="bottom_margin">10dp</dimen>
+    <dimen name="textsize_t1">24sp</dimen>
+    <dimen name="textsize_a1">20sp</dimen>
+    <dimen name="textsize_b2">18sp</dimen>
+    <dimen name="textsize_c3">16sp</dimen>
+    <dimen name="textsize_d4">14sp</dimen>
+    <dimen name="textsize_e5">12sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

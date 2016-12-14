@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView_item_project_name001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机油 4.0L"
+                android:textColor="@color/inputblack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="原厂件"
+                android:textColor="@color/hintblack"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView_item_project_price001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="￥77"
+            android:textColor="@color/red"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        
+        android:padding="5dp"
+        android:id="@+id/HorizontalScrollView_baoyang001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <GridView
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/GridView_jiyou_bixuan001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" />
+        </LinearLayout>
+        
+    </HorizontalScrollView>
+
+</LinearLayout>

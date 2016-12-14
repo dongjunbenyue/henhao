@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+ <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="both" >
+<!--   <com.bcwcar.android.bencar.widget.ObservableScrollView
+        android:layout_marginTop="1dp"
+        android:id="@+id/ScrollView_main_discovery001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"> -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 头部默认车辆信息 -->
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_change_car_deafult001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" 
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:clickable="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/SimpleDraweeView_dicvovery_car_logo001"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        fresco:actualImageScaleType="focusCrop"
+                        fresco:roundAsCircle="false"
+                        fresco:roundedCornerRadius="3dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_dicvovery_car_name001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="东风思雨 1.4T 手动风撒花姑娘"
+                        android:textColor="@color/inputblack"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center_vertical|right"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当前公里数"
+                        android:textColor="@color/inputblack"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/TextView_dicvovery_car_km001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@drawable/xiayibu_mini"
+                        android:text="5000km"
+                        android:textColor="@color/inputblack"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 八项单品 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" >
+
+                <include layout="@layout/discover_eight_xml" />
+            </LinearLayout>
+            <!-- 广告图 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <com.bcwcar.android.bencar.widget.CustomViewPager
+                    android:id="@+id/viewpager_home_buttom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/viewpager_home_buttom"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+                </RadioGroup>
+            </RelativeLayout>
+            <!-- 筛选 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_choice_main001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:orientation="horizontal" 
+                    >
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_main_shaxuan001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_xx_fu_001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全部"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_main_shaxuan002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                     android:id="@+id/TextView_xx_fu_002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="区域"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_main_shaxuan003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                     android:id="@+id/TextView_xx_fu_003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="智能排序"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+        </LinearLayout>
+                <ListView
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/ListView_main_project004"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/LinearLayout_choice_main001"
+                    android:divider="@color/common_bg"
+                    android:dividerHeight="10dp"
+                    android:scrollbars="none" />
+            </RelativeLayout>
+        </LinearLayout>
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+        
+ 
+ <LinearLayout
+            android:id="@+id/LinearLayout_choice_maintop001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" 
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_top_shaxuan001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_xx_001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全部"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_top_shaxuan002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_xx_002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="区域"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/RelativeLayout_top_shaxuan003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/TextView_xx_003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="智能排序"
+                    android:textColor="@color/inputblack"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_zankai" />
+            </RelativeLayout>
+        </LinearLayout>
+ 
+    <LinearLayout 
+        android:layout_below="@+id/LinearLayout_choice_maintop001"
+        android:id="@+id/LinearLayout_three_listview_choice001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent55"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+ <RelativeLayout 
+      android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg">
+      <ListView
+            android:id="@+id/ListView_top_project001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone" 
+            android:divider="@color/hui"
+            android:dividerHeight="1dp"/>
+
+        <ListView
+            android:id="@+id/ListView_top_project002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone" 
+            android:divider="@color/hui"
+            android:dividerHeight="1dp"/>
+
+        <ListView
+            android:id="@+id/ListView_top_project003"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone" 
+            android:divider="@color/hui"
+            android:dividerHeight="1dp"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hui"/>
+    <LinearLayout 
+        android:id="@+id/TextView_gone001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/up"/>
+        
+    </LinearLayout>
+    <RelativeLayout 
+        android:id="@+id/RelativeLayout_gone001"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+ </LinearLayout>
+ 
+</RelativeLayout>

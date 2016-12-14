@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+
+<RelativeLayout
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/yuanjiao_biankuang_bai" >
+
+             <com.facebook.drawee.view.SimpleDraweeView
+                 android:layout_centerVertical="true"
+                 android:id="@+id/SimpleDraweeView_logo001"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:failureImage="@drawable/moren"
+                fresco:roundAsCircle="false"
+                fresco:roundedCornerRadius="10dp"
+                fresco:viewAspectRatio="1.45" />
+    
+     <LinearLayout
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/SimpleDraweeView_logo001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@color/white"
+            android:orientation="vertical" >
+<TextView
+    android:id="@+id/TextView_discovery_project_name001"
+    android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:text="双人座驾服务"
+                        android:textSize="16sp" />
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+      <LinearLayout 
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+         <TextView 
+             android:id="@+id/TextView_ticket_price001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥800"
+            android:textColor="@color/red"/>
+         <RelativeLayout 
+             android:padding="5dp"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <View 
+                android:layout_centerInParent="true"
+                android:layout_width="45dp"
+                android:layout_height="1dp"
+            android:background="@color/hintblack"/>
+             <TextView 
+                 android:id="@+id/TextView_ticket_nomarl_price001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥1000"
+            android:textSize="14sp"
+            android:textColor="@color/inputblack"/>
+             
+         </RelativeLayout>
+         </LinearLayout>
+      <TextView
+          android:id="@+id/TextView_ticket_saled001" 
+          android:paddingRight="10dp"
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已售0"
+            android:textSize="14sp"
+            android:textColor="@color/hintblack"
+            android:drawableLeft="@drawable/icon_renshu"/>
+    
+</RelativeLayout>
+
+
+        </LinearLayout>
+</RelativeLayout>

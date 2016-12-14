@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="both" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         <com.bcwcar.android.bencar.widget.CustomViewPager
+            android:id="@+id/viewpager_home_buttom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" /> 
+   
+        <RadioGroup
+            android:layout_alignBottom="@+id/viewpager_home_buttom"
+            android:id="@+id/radiogroup001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+        </RadioGroup>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/RelativeLayout_user_cars001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:padding="10dp" 
+            android:visibility="visible">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_centerVertical="true"
+                android:id="@+id/SimpleDraweeView_usercar_brand_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundAsCircle="true" />
+
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/SimpleDraweeView_usercar_brand_logo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView_usercar_info001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:textSize="16sp"
+                    android:text="奥迪A3 2015年款  2.0L  自动典雅"
+                    android:textColor="@color/inputblack" />
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:text="爱车行驶里程"
+                        android:textColor="@color/hintblack" />
+                    <TextView
+                        android:id="@+id/TextView_usercar_info_usercar_card001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:text="22255km"
+                        android:textColor="@color/hintblack" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/xiayibu"
+                android:textColor="@color/hintblack"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <!-- 未登录状态 -->
+    <RelativeLayout 
+        android:id="@+id/RelativeLayout_no_login_adcar001"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <LinearLayout 
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ImageView_mainhome_presents001"
+            android:id="@+id/LinearLayout_add_love_car001"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+        <ImageView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/car"/>
+        <TextView 
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_add_you_car"
+            android:textSize="16sp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ImageView_mainhome_presents001"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/liwu"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/RelativeLayout_shop_brand_more001"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hoting_car_brand"
+            android:textSize="14sp"/>
+      
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_more"
+            android:drawableRight="@drawable/xiayibu"
+            android:drawablePadding="5dp"
+            android:textColor="@color/hintblack"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <GridView
+        android:scrollbars="none"
+        android:id="@+id/GridView_hoting_brand001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:numColumns="5" >
+    </GridView>
+
+     <RelativeLayout 
+         android:id="@+id/RelativeLayout_shop_more001"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_neardy_4s_shop"
+            android:textSize="14sp"/>
+      
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_more"
+            android:drawableRight="@drawable/xiayibu"
+            android:drawablePadding="5dp"
+            android:textColor="@color/hintblack"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+    <ListView 
+        android:scrollbars="none"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView_neardy_4s_shop001"/>
+    
+</LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

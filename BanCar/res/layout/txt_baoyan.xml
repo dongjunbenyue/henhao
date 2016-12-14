@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/mainfei_baoyan_text001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#80000000" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保养检测说明"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="常见标准保养检测项目汇总如下："
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1、车身内外照明电器，用电设备检查功能;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2、自诊断：诊断设备读取各系统控制器内的故障存储信息"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3、空调系统：检查泄露及损坏，空调系统功能性检测，检查散热器风扇，检查流水槽及排水口;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4、手制动器：检查，必要时调整;"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5、全车油液检查液位，必要时添加；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6、雨刮器/清洗装置：检查雨刮片，必要时更换；检查清洗装置功能，必要时调整并加注清洗液；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7、发动机舱：检查发动机泄露及噪音，多楔带检查，检查燃油管路、真空管路、电气线路、制动管路、ATF油冷却器管路是否存在干涉或损坏，必要时调整；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8、蓄电池：观察蓄电池上电眼，必要时使用专用设备检查蓄电池状况，检查正负极连接状态；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9、变速箱/传动轴护套：检查有无渗漏和损坏，连接是否牢固；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10、转向横拉杆/稳定杆/连接杆：检查是否有间隙，连接是否牢固；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11、车身底部：检查燃油管，制动液管是否干涉以及底部保护层是否损坏，排气管是否泄漏，固定是否牢靠；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12、底盘螺栓：检查并按规定扭矩紧固；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13、制动系统：检查制动液管路、制动系统零部件是否泄漏，检查制动液液面，必要时补充；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14、制动片及制动盘磨损检查；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15、轮胎/轮毂（包括备胎）：检查轮胎磨损情况，同时校正轮胎气压；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16、车轮固定螺栓：检查并按规定扭矩紧固；"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注意：具体检查项目以授权4S店及厂方技术标准为准。为了保证您在驾驶过程中的顺畅和安全，技师在为您的爱车进行保养检测后，可能会根据您的爱车零部件使用磨损情况提出曾项保养建议，增项保养项目需要您在4S店直接支付备件和工时费。"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+</ScrollView>

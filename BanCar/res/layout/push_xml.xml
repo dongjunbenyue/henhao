@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qidongye"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white90"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题："
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TextView_push_title001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统信息提示您"
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容："
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TextView_push_content001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尊敬的用户，您好"
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间："
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TextView_push_time001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-05-09  19:06:12"
+                android:textColor="@color/inputblack"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

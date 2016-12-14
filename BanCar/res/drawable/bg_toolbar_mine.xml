@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 工具栏上的我的按钮背景 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/headlan"
+        android:state_checked="true"
+        android:state_enabled="true">
+    </item>
+    <item android:drawable="@drawable/headhui">
+    </item>
+
+</selector>

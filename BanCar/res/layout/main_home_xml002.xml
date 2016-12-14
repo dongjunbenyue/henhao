@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_user_cars001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:padding="10dp" >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/SimpleDraweeView_usercar_brand_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:roundAsCircle="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/SimpleDraweeView_usercar_brand_logo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView_usercar_info001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:text="奥迪A3 2015年款  2.0L  自动典雅"
+                    android:textColor="@color/inputblack" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/TextView_usercar_info_usercar_card001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:text="相A23235"
+                        android:textColor="@color/hintblack" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/hintblack" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:text="目前你的车状况良好"
+                        android:textColor="@color/hintblack" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/xiayibu"
+                android:textColor="@color/hintblack"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/red" >
+
+            <com.bcwcar.android.bencar.widget.CustomViewPager
+                android:id="@+id/viewpager_home_buttom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/viewpager_home_buttom"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/bg_viewpager_indicator"
+                    android:padding="5dp" />
+
+                <RadioButton
+                    android:id="@+id/radio002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/bg_viewpager_indicator"
+                    android:padding="5dp" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_xian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/yuan_hui" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/yuan_blue" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/yuan_blue002" />
+            </LinearLayout>
+<!-- 中间滑动部分======================================= -->
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical">
+
+                    <include layout="@layout/baoyang_huandong_item_xml_befor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical">
+
+                    <com.bcwcar.android.bencar.widget.CustomViewPager
+                        android:id="@+id/viewpager_home_baoyang001"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical">
+
+                    <include layout="@layout/baoyang_huandong_item_xml_after" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:id="@+id/TextView_chakan_car_case001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yuanjiao_button_lan"
+                android:padding="10dp"
+                android:text="@string/text_chek_baoyang_case"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

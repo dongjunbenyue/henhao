@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+  <TextView android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/texttianma"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="10dp"
+      android:text="如何获取VIN码？"/>
+<LinearLayout android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="20dp"
+               android:layout_marginLeft="10dp"
+               
+               android:id="@+id/linetianma"
+               android:layout_below="@+id/texttianma"
+               >
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+               android:layout_weight="1"
+              android:background="@color/white"
+              >             
+<EditText 
+    android:capitalize="characters"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+          android:textSize="14sp"
+          android:background="@color/white"
+          android:id="@+id/edittianma"
+          android:hint="请输入VIN码"
+          android:maxLength="17"/>
+</LinearLayout>  
+<TextView android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="5"
+          android:gravity="center"
+          android:textColor="@color/white"
+          android:background="@drawable/bg_blue_corner_solid"
+          android:paddingTop="10dp"
+          android:paddingBottom="10dp"
+          android:clickable="true"
+          android:id="@+id/textchaxun"
+          android:layout_marginRight="5dp"
+          android:text="查询"/>
+
+</LinearLayout>  
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linetianma"
+   
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="40dp"
+    android:id="@+id/textxianshi"
+    android:textSize="12sp"
+    android:textColor="@color/black"
+    />
+<LinearLayout
+        android:id="@+id/LinearLayout_boda_dianhua001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" 
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客服电话："
+                android:textColor="#555555" />
+
+            <TextView
+                android:id="@+id/Textview_wangdian_xiangxi_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4000185025"
+                android:textColor="#555555" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call2"
+                android:clickable="true"
+                android:id="@+id/changjianwenticall" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

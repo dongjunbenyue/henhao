@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+ <RelativeLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/white"
+     android:padding="10dp">
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="10sp"
+         android:id="@+id/modol"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:textColor="@color/inputblack"
+         android:text="退款金额:"/>
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/red"
+         android:id="@+id/ordermoney"
+         android:layout_toRightOf="@+id/modol"
+         android:layout_centerVertical="true"
+         android:text="654654"
+         android:textSize="10sp"/>
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/white"
+         android:textSize="10sp"
+        android:padding="5dp"
+         android:background="@drawable/yuan_hui1"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:text="退款完成"/>
+     
+     
+ </RelativeLayout>  
+ <LinearLayout android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="1dp"
+     android:orientation="vertical"
+     android:padding="10dp"
+     android:background="@color/white">
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/inputblack"
+          
+          android:textSize="13sp"
+          android:text="订单号："/>
+      <TextView android:textColor="@color/inputblack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/ordernum"
+          android:textSize="13sp"/>
+  </LinearLayout>
+ <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/inputblack"
+          
+          android:textSize="13sp"
+          android:text="退款周期："/>
+      <TextView android:textColor="@color/inputblack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="七天之内处理"
+          android:id="@+id/refundperiod"
+          android:textSize="13sp"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/inputblack"
+          
+          android:textSize="13sp"
+          android:text="支付方式："/>
+      <TextView android:textColor="@color/inputblack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/paymethod"
+          android:textSize="13sp"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/inputblack"
+         
+          android:textSize="13sp"
+          android:text="退还方式："/>
+      <TextView android:textColor="@color/inputblack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/tuihuanfangshi"
+          android:textSize="13sp"/>
+  </LinearLayout>    
+ </LinearLayout>
+ <ListView android:layout_width="match_parent"
+     android:layout_marginTop="10dp"
+     android:background="@color/white"
+     android:layout_height="wrap_content"
+     android:id="@+id/tuikuanliucheng"></ListView>
+</LinearLayout>

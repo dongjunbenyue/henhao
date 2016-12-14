@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="refresh_down_text">下拉可刷新</string>
+	<string name="refresh_release_text">松开可刷新</string>
+  <!-- 正则简单规定 -->
+  <string name="app_name">犇车网</string>
+    <string name="register_carid">0123456789ABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="register_name_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="register_name_phone">0123456789</string>
+    <string name="register_name_jin_e">0123456789.</string>
+   <string name="text_news_you_have">你有新的消息</string>
+     <string name="text_news_quan">购券消息</string>
+    <string name="text_news_shangjia">商家信息</string>
+    <string name="text_custmer_system">系统消息</string>
+<!--  底部button-->
+<string name="button_conversationlist_item_delet">删除该消息</string>
+    <string name="button_conversationlist_item_top">置顶改消息</string>
+<string name="common_toolbar_1_home">首页</string>
+<string name="common_toolbar_1_service_network">发现</string>
+<string name="common_toolbar_1_mine">我的</string>
+    <string name="action_settings">设置</string>
+    
+    <!-- 文字信息 -->
+    <string name="select_city_title">选择城市</string>
+    <string name="select_city_location">当前城市</string>
+     <string name="select_city_to_next">按省级行政区选择城市</string>
+    <string name="network_error_please_try_again">网络错误，请重试！</string>
+    <string name="press_agin_to_back">再按一次退出程序</string>
+     <string name="huodong">活动详情</string>
+    <string name="user_phone">手\u0020\u0020\u0020机</string>
+    <string name="about_us_privacy_statement">隐私声明</string>
+    <string name="user_phone_hint">请输入手机号</string>
+    <string name="user_password">密\u0020\u0020\u0020码</string>
+    <string name="user_password_hint">请输入密码</string>
+     <string name="text_confrimation_phone">验证码</string>
+    <string name="text_confrimation_phone_hint">请输入验证码</string>
+    <string name="text_confrimation_phonepassword_hint">请输入密码</string>
+    <string name="text_confrimation_phone_number_hint">请输入手机号码</string>
+    <string name="button_get_phonedata">获取验证码</string>
+    <string name="text_login_mima">密码登陆</string>
+      <string name="text_login_code">验证码登陆</string>
+      <string name="button_login">登\u0020录</string>
+      <string name="regist">注\u0020册</string>
+      <string name="balance">余额</string>
+      <string name="card">卡劵</string>
+      <string name="shop4s_join_city_hint">请输入店铺所在城市</string>
+    <string name="shop4s_join_shop">姓名：</string>
+    <string name="shop4s_join_shop_hint">请输入姓名</string>
+    <string name="shop4s_join_brand">品牌：</string>
+    <string name="shop4s_join_brand_hint">请输入服务品牌</string>
+    <string name="shop4s_join_address">电话：</string>
+    <string name="shop4s_join_address_hint">请输入联系电话</string>
+    <string name="shop4s_join_name">联系人姓名：</string>
+    <string name="shop4s_join_name_hint">请输入联系人姓名</string>
+    <string name="shop4s_join_phone">联系人电话：</string>
+    <string name="shop4s_join_phone_hint">请输入联系人手机号码</string>
+    <string name="shop4s_join_application_to_join">申请入驻</string>
+      <string name="integration">积分</string>
+      <string name="none">0</string>
+      <string name="myorder">我的订单</string>
+      <string name="checkmyorder">查看全部订单</string>
+      <string name="daishiyong">已付款</string>
+       <string name="daifukuan">待付款</string>
+        <string name="fuwuzhong">服务中</string>
+         <string name="daipingjia">待评价</string>
+          <string name="tuikuan">退款</string>
+    <string name="mianfeibaoyang">免费保养</string>
+    <string name="zijiazhuangbei">自驾装备</string>
+    <string name="weizhangchaxun">违章查询</string>
+    <string name="jinjijiuyuan">紧急救援</string>
+    <string name="guanyuwomen">关于我们</string>
+    <string name="shezhi">设置</string>
+    <string name="image">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="telephone">手机号</string>
+    <string name="myadress">我的地址</string>
+    <string name="sex">性别</string>
+    <string name="birthday">生日</string>
+    <string name="district">地区</string>
+    <string name="sign">个性签名</string>
+     <string name="personaldata">个人资料</string>
+    <string name="text_city_please">请选择城市</string>
+      <string name="text_city_other">其他</string>
+      <string name="text_shop_wangdian_yes">预   约</string>
+      <string name="text_shop_wangdian_stop">关  闭</string>
+       <string name="text_bank_card">银行卡</string>
+    <string name="text_use_newbank">请选择银行卡</string>
+    <string name="text_sum_of_money">金额</string>
+    <string name="text_Current_balance">当前余额</string>
+    <string name="text_my_bankcard_page">我的银行卡</string>
+    <string name="text_add_bankcard">+\u0020添加银行卡</string>
+    <string name="text_cashsum_enough">余额不足</string>
+    <string name="text_cashsum_no">请输入提现金额</string>
+     <string name="text_choice_bank">请选择你的银行卡</string>
+    <string name="text_phonenum">手\u0020\u0020机</string>
+    
+    <string name="text_withdraw_cashdetails">提现详情</string>
+    <string name="text_withdraw_System_busy">Sorry!系统繁忙</string>
+    <string name="text_withdraw_cash_success">提现成功</string>
+    <string name="button_finish">完\u0020成</string>
+    <string name="text_withdraw_cash_success_prompt">3-5个工作日内将付款到你的银行卡！</string>
+    <string name="text_bankname">银行</string>
+    <string name="text_cash">现金</string>
+    <string name="text_bank_end_four_num">尾数</string>
+    <string name="text_bank_of_jianshe">建设银行</string>
+    <string name="text_money_mark">￥</string>
+    <string name="text_confirmation_phonenum">验证手机号码</string>
+    <string name="text_settings_pay_password">设置支付密码</string>
+    <string name="text_settings_pay_password_success">设置支付密码成功</string>
+    <string name="text_settings_pay_password_set_text001">请设置支付密码，请勿与银行卡取款</string>
+    <string name="text_settings_pay_password_set_text002">密码相同</string>
+    <string name="text_settings_pay_password_text001">请输入支付密码，注意安全！</string>
+    <string name="text_settings_pay_password_text002">如忘记密码请进入设置页面进行找回</string>
+    <string name="text_safe_pay">犇车安全支付</string>
+    <string name="text_withdraw_info001">设置支付密码需要短信确认，验证码已发送至</string>
+    <string name="text_back_password_info001">找回密码需要短信确认，验证码已发送至</string>
+      <string name="text_no_4s_shop">你暂时无4S店归属,请选择4S店保养>></string>
+      
+    <!-- For body_my_order.xml -->
+    <string name="my_order_title">我的订单</string>
+    <string name="my_order_topbar_payment">全部订单</string>
+    <string name="my_order_topbar_non_payment">待付款</string>
+    <string name="my_order_topbar_in_service">服务中</string>
+    <string name="my_order_topbar_wait_for_evaluate">待评价</string>
+    <string name="my_order_payment_find_designated_driver">没空，找代驾</string>
+    <string name="my_order_payment_refund">退款</string>
+    <string name="my_order_payment_payment">已付款</string>
+    
+    <string name="my_order_payment_buy_new_project">还可以购买新项目</string>
+    <string name="my_order_payment_add_project">添加项目</string>
+    <!-- For body_my_order_evaluate.xml -->
+    <string name="my_order_evaluate_title">发布评价</string>
+    <string name="my_order_evaluate_shop_score">店铺评分</string>
+    <string name="my_order_evaluate_edittext_hint">写下对此次服务的感受吧，对他人帮助很大哦！</string>
+    <string name="my_order_evaluate_anonymous_submit">匿名评价</string>
+    <string name="my_order_evaluate_submit">发布评价</string>
+    <!-- For body_refund_reason.xml -->
+    <string name="refund_reason_title">我要退款</string>
+    <string name="refund_reason_listview_title">退款理由</string>
+    <string name="refund_reason_list_reason_1">预定错了！</string>
+    <string name="refund_reason_list_reason_2">计划改变，没时间前往！</string>
+    <string name="refund_reason_list_reason_3">对4S店服务不满意！</string>
+    <string name="refund_reason_list_reason_4">到店说无预约或无合作！</string>
+    <string name="refund_reason_list_reason_5">在4S店直接消费更便宜！</string>
+    <string name="refund_reason_tucao">不爽，想吐槽</string>
+    <string name="refund_reason_do">我要退款</string>
+    <string name="refund_reason_please_select_reason">请选择退款理由</string>
+    <string name="refund_reason_cancel">点错了</string>
+
+    <!-- For body_cancel_order.xml -->
+    <string name="cancel_order_title">取消订单</string>
+    <string name="cancel_order_listview_title">取消理由</string>
+    <string name="cancel_order_do">我要取消</string>
+      
+    <!--text文字信息  -->
+    <string name="text_add_car_success">保存成功</string>
+    <string name="text_moren_cityname">长沙市</string>
+    <string name="text_add_you_car">请添加你的爱车</string>
+    <string name="text_hoting_car_brand">热门保养品牌</string>
+     <string name="text_neardy_4s_shop">附近门店</string>
+    <string name="text_more">更多</string>
+    <string name="text_chek_baoyang_case">查看保养方案</string>
+    <string name="text_get_aicar">爱车到手</string>
+<string name="text_city_service_no">该城市尚未开通</string>
+    <string name="text_code_kown_car">  填码识车</string>
+    <string name="text_code_vin_explin">VIN码填写说明</string>
+    <string name="text_car_brand">品牌</string>
+    <string name="text_huodong_explin">活动说明</string>
+    <string name="text_car_sersions">车系</string>
+    <string name="text_no_caryear">暂无相关信息</string>
+    <string name="text_zhineng_case">智能保养方案</string>
+    <string name="text_zhineng_baoyang_text">保养手册</string>
+    <string name=" select_car_add_car">增加</string>
+    <string name=" select_car_title">车库</string>
+    
+    <string name="car_information_title">填写爱车信息</string>
+    <string name="car_get_data_hints">请选择购车时间</string>
+    <string name="car_km_number_hints">请输入公里数</string>
+    <string name="car_number_data">车牌信息</string>
+    <string name="car_data_to_editext_hint">我们将对你的爱车信息保密，请你放心填写</string>
+    <string name="car_save">保存</string>
+    <string name="car_go_to_baoyang">立即保养</string>
+    
+    <string name="car_city_select">所属城市</string>
+    <string name="car_pai_number">车牌号</string>
+    <string name="car_fadongji_number">发动机号</string>
+    <string name="car_chejia_number">车架号</string>
+    <string name="car_pai_number_hints">6位车牌号(字母大写)</string>
+    <string name="car_fadongji_number_hints">请输入发动机号</string>
+    <string name="car_chejia_number_hints">请输入机架号</string>
+    <string name="text_xiang">湘</string>
+    <string name="text_data_no_or_com">请填入完整信息</string>
+    <string name="add_project_title">增加项目</string>
+       <!-- For body_shop4s_maintain_fill_in_order.xml -->
+    <string name="shop4s_maintain_fill_in_order_title">订单填写</string>
+    <string name="shop4s_maintain_fill_in_order_project">保养项目</string>
+    <string name="shop4s_maintain_fill_in_order_time">保养时间：</string>
+    <string name="shop4s_maintain_fill_in_order_select_time">保养时间</string>
+    <string name="shop4s_maintain_fill_in_order_plate_number">车牌号</string>
+    <string name="shop4s_maintain_fill_in_order_plate_number_hint">请输入完整车牌号码</string>
+    <string name="shop4s_maintain_fill_in_order_contacts">联系人</string>
+    <string name="shop4s_maintain_fill_in_order_contacts_hint">请输入姓名</string>
+    <string name="shop4s_maintain_fill_in_order_boy">先生</string>
+    <string name="shop4s_maintain_fill_in_order_girl">女士</string>
+    <string name="shop4s_maintain_fill_in_order_phone_number">手机号码</string>
+    <string name="shop4s_maintain_fill_in_order_phone_number_hint">请输入手机号码</string>
+    <string name="shop4s_maintain_fill_in_order_coupon">优惠券</string>
+    <string name="shop4s_maintain_fill_in_order_subtract">减</string>
+    <string name="shop4s_maintain_fill_in_order_tubi">使用途币抵扣</string>
+    <string name="shop4s_maintain_fill_in_order_price_from_bancar_prompt">犇车价</string>
+    <string name="shop4s_maintain_fill_in_order_goto">去保养</string>
+
+    <!-- For body_shop4s_maintain_payment_method.xml -->
+    <string name="shop4s_maintain_payment_method_title">支付方式</string>
+    <string name="shop4s_maintain_payment_method_order_name">犇车订单</string>
+    <string name="shop4s_maintain_payment_method_wechatpay">微信支付</string>
+    <string name="shop4s_maintain_payment_method_unionpay">银行卡支付</string>
+    <string name="shop4s_maintain_payment_method_unionpay_info">单笔限额：10000元</string>
+    <string name="shop4s_maintain_payment_method_alipay">支付宝支付</string>
+    <string name="shop4s_maintain_payment_method_alipay_info">信用卡限额500元，储蓄卡限额2000元，余额宝支付不限。</string>
+      <!-- For body_shop4s_join.xml -->
+    <string name="shop4s_join_title">4S店加盟</string>
+    <string name="shop4s_join_one_text">申请加盟</string>
+    <string name="shop4s_join_two_text">电话联系</string>
+    <string name="shop4s_join_three_text">提交报价</string>
+    <string name="shop4s_join_four_text">4S店上线</string>
+    <string name="shop4s_join_one">1</string>
+    <string name="shop4s_join_two">2</string>
+    <string name="shop4s_join_three">3</string>
+    <string name="shop4s_join_four">4</string>
+    <string name="shop4s_join_city">城市：</string>
+
+    <!-- For body_shop4s_info.xml -->
+    <string name="shop4s_info_title">4S店信息</string>
+    <string name="shop4s_info_phone_number">电话：</string>
+    <string name="shop4s_info_score">评分：</string>
+    <string name="shop4s_info_out_of_date">过期退</string>
+    <string name="shop4s_info_any_time">随时退</string>
+    <string name="shop4s_info_manufacturer">服务厂商：</string>
+    <string name="shop4s_info_motorcycle_type">主营车型：</string>
+    <string name="shop4s_info_look_maintain_project">去保养</string>
+    <string name="shop4s_info_call_phone_error">手机号码不正确，无法拨打！</string>
+
+    <!-- For body_shop4s_details.xml -->
+    <string name="shop4s_details_title">4S店详情</string>
+    <string name="shop4s_details_phone_number">电话：</string>
+    <string name="shop4s_details_score">评分：</string>
+    <string name="shop4s_details_out_of_date">过期退</string>
+    <string name="shop4s_details_any_time">随时退</string>
+    <string name="shop4s_details_price">全天4S店指导价：</string>
+    <string name="shop4s_details_reserve">预定</string>
+
+    <!-- For body_shop4s_maintain_payment_result.xml -->
+    <string name="shop4s_maintain_payment_result_title">支付结果</string>
+    <string name="shop4s_maintain_payment_result_failed">支付未完成</string>
+    <string name="shop4s_maintain_payment_result_success">支付已完成</string>
+    <string name="shop4s_maintain_payment_result_order_details">订单详情</string>
+
+    <!-- For body_shop4s_maintain_payment_result_order_details.xml -->
+    <string name="shop4s_maintain_payment_result_order_details_title">订单详情</string>
+    <!-- XListView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_loading">加载中...</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="title_activity_daijia">DaijiaActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_service">ServiceActivity</string>
+<!-- hints信息 -->
+  
+    <string name="hints_search_userids">请输入用户手机</string>
+    <string name="hints_edittext_true_phone">请输入正确的手机号</string>
+    <string name="hints_edittext_all_data">请输入完整的信息</string>
+</resources>
